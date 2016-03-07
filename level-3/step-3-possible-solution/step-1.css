@@ -1,23 +1,23 @@
-/*  Step-1.1 */
+/*  Step-1.1 add a background image that takes up the entire width of the container */
 
 .main-top-section {
     width: 100%;
-    height: 375px;
-    background: #F7F1E7;
+    height: 530px;
     position: relative;
+    background: url("../img/Background.png") no-repeat;
+    background-size: cover;
 
 }
 
 
 .top-header {
     width: 100%;
+    padding-top: 10px;
     height: 70px;
     text-align: center;
-    background: #D8D8D8;
+
 }
 
-/*  Step-1.2 You need to get all of these elements to line up side by side. What display property would do this for you? */
-/*  Step-1.2 You will also need t add a position property to the logo and sign in containers */
 
 .menu {
     width: 100px;
@@ -25,8 +25,13 @@
     display: inline-block;
     position: absolute;
     left: 10px;
-    top: 10px;
-    background: #536A63;
+    top: 20px;
+
+}
+
+.menu-icon {
+    width: 60%;
+
 }
 
 .logo {
@@ -34,8 +39,11 @@
     height: 40px;
     display: inline-block;
     margin-top: 10px;
-    background: #536A63;
 
+}
+
+.logo-icon {
+    width: 75%;
 }
 
 .sign-in {
@@ -44,20 +52,26 @@
     display: inline-block;
     position: absolute;
     right: 10px;
-    top: 10px;
-    background: #536A63;
+    top: 30px;
 
 }
 
-/*  Step-1.3 Make this container overhang off it's parent container.  */
+.sign-in-icon {
+    width: 60%;
+}
+
 
 .bottom-container {
-    width: 60%;
+    width: 100%;
     height: 60px;
     position: absolute;
+    text-align: center;
     bottom: -30px;
-    left: 22%;
-    background: #536A63;
 
+}
+
+
+.shop-icon {
+    width: 350px;
 }
 

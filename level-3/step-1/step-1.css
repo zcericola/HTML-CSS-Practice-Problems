@@ -1,9 +1,11 @@
-/*  Step-1.1 */
+/*  Step-1.1 add a background image that takes up the entire width of the container */
 
 .main-top-section {
     width: 100%;
     height: 530px;
     position: relative;
+
+    /*Add a background image make sure it does not repeat and that it covers the entire container */
     background: url("../img/Background.png") no-repeat;
     background-size: cover;
 
