@@ -1,21 +1,27 @@
-/* Step-2.1 add styles to match the step-2 design */
 
-.logo-container {
-    background: #4F4949;
-}
-/* Step-2.1 add styles to match the step-2 design */
-
-.menu-container {
-    background: #4F4949;
-}
-/* Step-2.1 add styles to match the step-2 design */
+/* Step-2.1 */
 
 .profile-image-container {
     background: #96F0F2;
 }
 
-/* Step-2.1 add styles to match the step-2 design */
-
+/* Step-2.2  */
 .profile-links-container {
     background: #12F3F7;
 }
+
+/* Step-2.3  */
+
+.logo-container {
+    background: #4F4949;
+}
+
+
+/* Step-2.4 */
+
+.menu-container {
+    background: #4F4949;
+}
+
+
+

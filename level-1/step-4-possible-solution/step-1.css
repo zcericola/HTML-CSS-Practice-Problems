@@ -12,6 +12,7 @@
 .content-left {
     width: 33.3%;
     height: 76vh;
+    padding-top: 35px;
     float: left;
     background: #565555;
 }
