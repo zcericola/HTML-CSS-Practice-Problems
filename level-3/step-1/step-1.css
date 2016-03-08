@@ -5,9 +5,6 @@
     height: 530px;
     position: relative;
 
-    /*Add a background image make sure it does not repeat and that it covers the entire container */
-    background: url("../img/Background.png") no-repeat;
-    background-size: cover;
 
 }
 
