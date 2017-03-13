@@ -15,7 +15,7 @@ Understand HTML & CSS
 * Inside the index.html file you  will see the different practice problems. For example Step-1.1 would be step 1 question 1.
 * Start with level 1 step 1 question 1 and work your way through the problems
 * Your first step should be connecting your CSS files to the index.html
-* In every level we have included the possible solution folder please only look at this as a last resort of if you are finished with all the steps and want to see how your solution compares
+* In every level we have included the possible solution folder please only look at this as a last resort or if you are finished with all the steps and want to see how your solution compares
 
 ## Copyright
 
