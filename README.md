@@ -40,7 +40,7 @@ In this project you will be re-creating multiple html templates using the HTML a
 
 ### Summary
 
-Create an html document that has the same structure and styling as the `step-1.jpg` image.
+Create a webpage that has the same structure and styling as the `step-1.jpg` image.
 
 ### Instructions
 
@@ -68,13 +68,13 @@ Create an html document that has the same structure and styling as the `step-1.j
 
 </details>
 
-<br>
+<br/>
 * Level 1 Step 1.3
 * In the step-1.css file, give the div with the class name of .content-mid a css style of float: left.
 
 <details>
 
-<summary> <code> Solution to Step 1.2 </code> </summary>
+<summary> <code> Solution to Step 1.3 </code> </summary>
 
 ```css
 .content-mid {
@@ -94,7 +94,7 @@ Create an html document that has the same structure and styling as the `step-1.j
 
 <details>
 
-<summary> <code> Solution to Step 1.2 </code> </summary>
+<summary> <code> Solution to Step 1.4 </code> </summary>
 
 ```css
 .footer {
