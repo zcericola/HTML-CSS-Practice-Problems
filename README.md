@@ -150,7 +150,8 @@ Create a webpage that has the same structure and styling as the `step-1.jpg` ima
 ```
 
 </details>
-## Step 2
+
+## Level 1 Step 2
 
 ## Copyright
 
