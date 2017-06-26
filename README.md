@@ -51,21 +51,22 @@ Create an html document that has the same structure and styling as the `step-1.j
 * Level 1 Step 1.2
   * Open `step-1.css` file
   * Give `.content-left` a css style of `float: left`.
-  <details>
 
-  <summary> <code> Solution to Step 1.2 </code> </summary>
+<details>
 
-  ```css
-  .content-left{
-    width: 33.3%;
-    <!-- this height is a placeholder. You will need to make some adjustments to get this container to look like the design -->
-    height: 100px;
-    background: #565555;
-    float: left;
-  }
-  ```
+<summary> <code> Solution to Step 1.2 </code> </summary>
 
-  </details>
+```css
+.content-left{
+  width: 33.3%;
+  <!-- this height is a placeholder. You will need to make some adjustments to get this container to look like the design -->
+  height: 100px;
+  background: #565555;
+  `float: left;`
+}
+```
+
+</details>
 
 * Level 1 Step 1.3
 * In the step-1.css file, give the div with the class name of .content-mid a css style of float: left.
