@@ -110,11 +110,11 @@ Create a webpage that has the same structure and styling as the `step-1.jpg` ima
 * Level 1 Step 1.5
   * Now all we need to do is change the height and width on the divs so that your webpage looks as close as it can to the `step-1.jpg`.
 
-## Solution
+### Solution
 
 <details>
 
-<summary> <code>Solution</code> </summary>
+<summary> <code>Level 1 Step 1</code> </summary>
 
 ```css
 .header {
