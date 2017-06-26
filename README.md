@@ -17,18 +17,16 @@ Understand HTML & CSS
 * Your first step should be connecting your CSS files to the index.html
 * In every level we have included the possible solution folder please only look at this as a last resort or if you are finished with all the steps and want to see how your solution compares -->
 
-
-# HTML-CSS-Practice-Problems
-
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
-
-## Setup
-
-* Clone and fork this GitHub repo
 
 ## Project Summary
 
 In this project you will be re-creating multiple html templates using the HTML and CSS skills you have learned so far. There will be 3 levels of difficulty, each being a template and having its own steps to get to the end solution. In each step you will be given a jpeg image that you will need to re-create. Each step will be a continuation of the previous. The goal is to get your project to look as close as you can to the design of the images provided. Good luck!
+
+## Setup
+
+* Clone and fork this GitHub Repo
+* cd into the project directory
 
 ## IMPORTANT NOTES
 
