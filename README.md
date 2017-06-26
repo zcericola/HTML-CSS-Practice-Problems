@@ -68,7 +68,7 @@ Create a webpage that has the same structure and styling as the `step-1.jpg` ima
 
 </details>
 
-<br/>
+
 * Level 1 Step 1.3
 * In the step-1.css file, give the div with the class name of .content-mid a css style of float: left.
 
