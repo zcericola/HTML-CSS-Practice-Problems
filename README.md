@@ -107,18 +107,49 @@ Create a webpage that has the same structure and styling as the `step-1.jpg` ima
 
     </details>
 
-* Now change the size of each div using height and width to make them look like the step-1.jpg.
-
-
-
-
-
-
-
-
+* Level 1 Step 1.5
+  * Now all we need to do is change the height and width on the divs so that your webpage looks as close as it can to the `step-1.jpg`.
 
 ## Solution
 
+<details>
+
+<summary> <code>Solution</code> </summary>
+
+```css
+.header {
+    width: 100%;
+    height: 100px;
+    background: #D8D8D8;
+
+}
+
+.content-left {
+    width: 33.3%;
+    height: 76vh;
+    padding-top: 35px;
+    float: left;
+    background: #565555;
+}
+
+.content-mid {
+    width: 66.66%;
+    height: 76vh;
+    float: left;
+    background: #B0B0B0;
+
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: #3A3A3A;
+    position: absolute;
+    bottom: 0;
+}
+```
+
+</details>
 ## Step 2
 
 ## Copyright
