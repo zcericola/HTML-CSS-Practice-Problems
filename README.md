@@ -19,41 +19,50 @@ Understand HTML & CSS
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
-## Project Summary
+# Project Summary
 
 In this project you will be re-creating multiple html templates using the HTML and CSS skills you have learned so far. There will be 3 levels of difficulty, each being a template and having its own steps to get to the end solution. In each step you will be given a jpeg image that you will need to re-create. Each step will be a continuation of the previous. The goal is to get your project to look as close as you can to the design of the images provided. Good luck!
 
 ## Setup
 
 * Clone and fork this GitHub Repo
-* cd into the project directory
+* `cd` into the project directory
 
-## IMPORTANT NOTES
+## Important Notes
 
-* In this repo we include a folder named base, leave this folder alone. You will not need to change any code in this folder to complete the project.
+* In this repo we include a folder named `base`, leave this folder alone. You will not need to change any code in this folder to complete the project.
 
-* Each level has an index.html file, you will use the same index.html file for each of the steps in the current level.
+* Each level has an `index.html` file, you will use the same `index.html` file for each of the steps in the current level.
 
-* To see your progress right click on the index.html file you are currently working on and select show in finder. Then double click on the index.html file. This should open up a browser tab with what you have so far.
-
--------------^^^^^^^^^^^^--------
+* To see your progress right click on the `index.html` file you are currently working on and select show in finder. Then double click on the `index.html` file. This should open up a browser tab with what you have so far.
 
 ## Level 1 Step 1
 
-## Summary
+### Summary
 
-Create an html document that has the same structure and styling as the step-1.jpg image.
+Create an html document that has the same structure and styling as the `step-1.jpg` image.
 
-## Instructions
+### Instructions
 
 * Level 1 Step 1.1
-* We need to place the header on the top of the page.
-** Since the header was put in the html file it automatically gets put at the top so we don't need to change the header.
+  * We need to place the header on the top of the page.
+  * Since the header was put in the html file it automatically gets put at the top so we don't need to change the header.
 
 * Level 1 step 1.2
-* In the step-1.css file, give the div with a class name of .content-left a css style of float: left.
+  * Open `step-1.css` file
+  * Give the div with a class name of `.content-left` a css style of `float: left`.
+  * <details>
 
-Code Snippet
+      <summary> <code> Code Snippet Title </code> </summary>
+
+      ```js
+      /*
+        You can put code snippets in bullet lists as well. However make sure the code snippet is on it's own indentation level. Otherwise your bullet list will become double spaced.
+      */
+      ```
+      </details>
+
+
 
 .content-left{
   width: 33.3%;
