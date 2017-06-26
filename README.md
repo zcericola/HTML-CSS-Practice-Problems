@@ -46,7 +46,7 @@ Create an html document that has the same structure and styling as the `step-1.j
 
 * Level 1 Step 1.1
   * We need to place the header on the top of the page.
-  * Since the header was put in the html file it automatically gets put at the top so we don't need to change the header.
+  * The header automatically gets put at the top of the page because it is the first element on the HMTL file. So we don't need to change the header.
 
 * Level 1 Step 1.2
   * Open `step-1.css` file
@@ -62,31 +62,41 @@ Create an html document that has the same structure and styling as the `step-1.j
   <!-- this height is a placeholder. You will need to make some adjustments to get this container to look like the design -->
   height: 100px;
   background: #565555;
-  `float: left;`
+  float: left;
 }
 ```
 
 </details>
 
+<br>
 * Level 1 Step 1.3
 * In the step-1.css file, give the div with the class name of .content-mid a css style of float: left.
 
-Code Snippet
+<details>
 
+<summary> <code> Solution to Step 1.2 </code> </summary>
+
+```css
 .content-mid {
     width: 66.3%;
-    <!--this height is a placeholder. You will need to make some adjustment to get this container to look like the design -->
+    <!-- this height is a placeholder. You will need to make some adjustment to get this container to look like the design -->
     height: 100px;
     background: #B0B0B0;
     float: left;
 }
+```
+
+</details>
 
 * Level 1 Step 1.4
   * Open `step-1.css`
   * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
 
-Code Snippet
+<details>
 
+<summary> <code> Solution to Step 1.2 </code> </summary>
+
+```css
 .footer {
     width: 100%;
     height: 100px;
@@ -94,6 +104,9 @@ Code Snippet
     position: absolute;
     bottom: 0;
 }
+```
+
+</details>
 
 * Now change the size of each div using height and width to make them look like the step-1.jpg.
 
