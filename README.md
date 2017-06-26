@@ -48,29 +48,23 @@ Create an html document that has the same structure and styling as the `step-1.j
   * We need to place the header on the top of the page.
   * Since the header was put in the html file it automatically gets put at the top so we don't need to change the header.
 
-* Level 1 step 1.2
+* Level 1 Step 1.2
   * Open `step-1.css` file
-  * Give the div with a class name of `.content-left` a css style of `float: left`.
-  * <details>
+  * Give `.content-left` a css style of `float: left`.
+  <details>
 
-      <summary> <code> Code Snippet Title </code> </summary>
+      <summary> <code>Solution to Step 1.2</code> </summary>
 
-      ```js
-      /*
-        You can put code snippets in bullet lists as well. However make sure the code snippet is on it's own indentation level. Otherwise your bullet list will become double spaced.
-      */
+      ```css
+      .content-left{
+        width: 33.3%;
+        <!-- this height is a placeholder. You will need to make some adjustments to get this container to look like the design -->
+        height: 100px;
+        background: #565555;
+        float: left;
+      }
       ```
-      </details>
-
-
-
-.content-left{
-  width: 33.3%;
-  <!--this height is a placeholder. You will need to make some adjustments to get this container to look like the design -->
-  height: 100px;
-  background: #565555;
-  float: left;
-}
+</details>
 
 * Level 1 Step 1.3
 * In the step-1.css file, give the div with the class name of .content-mid a css style of float: left.
@@ -86,7 +80,8 @@ Code Snippet
 }
 
 * Level 1 Step 1.4
-* In the step-1.css file, give the div with the class name of .footer a css style of position: absolute and bottom: 0.
+  * Open `step-1.css`
+  * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
 
 Code Snippet
 
