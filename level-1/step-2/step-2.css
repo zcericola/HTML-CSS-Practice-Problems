@@ -2,7 +2,11 @@
 /* Step-2.1 One option to align this container to the center would be to give it a margin-left: auto; and margin-right: auto; */
 
 .profile-image-container {
-    background: #96F0F2;
+  width: 80%;
+  height: 180px;
+  margin: 35px auto 0 auto;
+  /*margin: auto;*/
+  background: #96F0F2;
 }
 
 /* Step-2.2  One option to align this container to the center would be to give it a margin-left: auto; and margin-right: auto; */
@@ -23,6 +27,3 @@
 .menu-container {
     background: #4F4949;
 }
-
-
-
