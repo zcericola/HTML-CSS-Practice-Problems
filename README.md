@@ -40,13 +40,17 @@ In this project you will be re-creating multiple html templates using the HTML a
 
 ### Summary
 
-Create a webpage that has the same structure and styling as the `step-1.jpg` image.
+In this step, we will create a webpage that has the same structure and styling as the `step-1.jpg` image. We will accomplish this by adding some css styles to our already existing HTML document.
 
 ### Instructions
 
+* Open the `level-1` folder and take a look inside. We have folders for steps one through three, a solution folder which is step-4, and an `index.html` file. You will be using the same `index.html` file for all three steps in this level.
+* Now open the `step-1` folder, and lets start styling.
+
 * Level 1 Step 1.1
+  * Open `step-1.css`.
   * We need to place the header on the top of the page.
-  * The header automatically gets put at the top of the page because it is the first element on the HMTL file. So we don't need to change the header.
+  * The header automatically gets put at the top of the page because it is the first element on the HMTL file. So we don't need to add styling to the header.
 
 * Level 1 Step 1.2
   * Open `step-1.css`.
@@ -398,6 +402,8 @@ Update our webpage so that it has the same structure and styling as the `step-3.
 ```
 
 </details>
+
+
 
 
 ## Copyright
