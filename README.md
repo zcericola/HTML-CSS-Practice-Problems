@@ -53,60 +53,60 @@ In this step, we will position the header at the top of the page.
 In this step, we will try to move box named content left to the left side of the page.
   * Open `step-1.css`.
   * Give `.content-left` a css style of `float: left` and a `padding-top: 35px`. The reason we gave the div with a class of `.content-left` a padding on top is that it will have content inside in the future.
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 1.2 </code> </summary>
+      <summary> <code> Solution to Step 1.2 </code> </summary>
 
-    ```css
-    .content-left{
-      width: 33.3%;
-      <!-- this height is a placeholder. You will need to make some adjustments to get this container to look like the design -->
-      height: 100px;
-      background: #565555;
-      float: left;
-      padding-top: 35px;
-    }
-    ```
+      ```css
+      .content-left{
+        width: 33.3%;
+        <!-- this height is a placeholder. You will need to make some adjustments to get this container to look like the design -->
+        height: 100px;
+        background: #565555;
+        float: left;
+        padding-top: 35px;
+      }
+      ```
 
-    </details>
+      </details>
 * Level 1 Step 1.3
 In this step, we are going to position the box called content-mid to the left side of the page.
   * Open `step-1.css`.
   * Give `.content-mid` a css style of `float: left`.
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 1.3 </code> </summary>
+      <summary> <code> Solution to Step 1.3 </code> </summary>
 
-    ```css
-    .content-mid {
-        width: 66.3%;
-        <!-- this height is a placeholder. You will need to make some adjustment to get this container to look like the design -->
-        height: 100px;
-        background: #B0B0B0;
-        float: left;
-    }
-    ```
+      ```css
+      .content-mid {
+          width: 66.3%;
+          <!-- this height is a placeholder. You will need to make some adjustment to get this container to look like the design -->
+          height: 100px;
+          background: #B0B0B0;
+          float: left;
+      }
+      ```
 
-    </details>
+      </details>
 * Level 1 Step 1.4
 In this step, we will position the footer at the bottom of the page.
   * Open `step-1.css`.
   * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 1.4 </code> </summary>
+      <summary> <code> Solution to Step 1.4 </code> </summary>
 
-    ```css
-    .footer {
-        width: 100%;
-        height: 100px;
-        background: #3A3A3A;
-        position: absolute;
-        bottom: 0;
-    }
-    ```
+      ```css
+      .footer {
+          width: 100%;
+          height: 100px;
+          background: #3A3A3A;
+          position: absolute;
+          bottom: 0;
+      }
+      ```
 
-    </details>
+      </details>
 * Level 1 Step 1.5
   * Now all we need to do is change the height and width on the divs so that your webpage looks as close as it can to the `step-1.jpg`.
 
