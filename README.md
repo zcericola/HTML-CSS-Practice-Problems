@@ -49,7 +49,7 @@ In this step, we will position the header at the top of the page.
   * Open `step-1.css`.
   * We need to place the header on the top of the page.
   * The header automatically gets put at the top of the page because it is the first element on the HMTL file. So we don't need to add styling to the header.
-* Level 1 Step 1.2
+* Level 1 Step 1.2 <br>
 In this step, we will try to move box named content left to the left side of the page.
   * Open `step-1.css`.
   * Give `.content-left` a css style of `float: left` and a `padding-top: 35px`. The reason we gave the div with a class of `.content-left` a padding on top is that it will have content inside in the future.
@@ -69,7 +69,7 @@ In this step, we will try to move box named content left to the left side of the
       ```
 
       </details>
-* Level 1 Step 1.3
+* Level 1 Step 1.3 <br>
 In this step, we are going to position the box called content-mid to the left side of the page.
   * Open `step-1.css`.
   * Give `.content-mid` a css style of `float: left`.
@@ -88,7 +88,7 @@ In this step, we are going to position the box called content-mid to the left si
       ```
 
       </details>
-* Level 1 Step 1.4
+* Level 1 Step 1.4 <br>
 In this step, we will position the footer at the bottom of the page.
   * Open `step-1.css`.
   * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
@@ -158,7 +158,8 @@ In this step, we will create a webpage that has the same structure and styling a
 ### Instructions
 
 * Now open the `step-2` folder and notice that there two items inside. There is a css file named `step-2.css` and an image named `step-2.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-2.css` file. Ok, lets start styling.
-* Level 1 Step 2.1
+* Level 1 Step 2.1 <br>
+In this step, we will add the first box in the content-left container.
   * Open `step-2.css`.
   * Give the `.profile-image-container` a height and a width so you can see it on the webpage.
   * Give the `.profile-image-container` a margin of auto.
@@ -177,7 +178,8 @@ In this step, we will create a webpage that has the same structure and styling a
       ```
 
       </details>
-* Level 1 Step 2.2
+* Level 1 Step 2.2 <br>
+In this step, we will add the second box in the content-left container.
   * Open `step-2.css`.
   * Give the div with a class of `.profile-links-container` a height and a width so you can see the element on the webpage.
   * Now lets try to give the div with a class of `.profile-links-container` a margin top, left and right all at the same time using the short-hand version. Like this `margin: 20px auto;`.
@@ -196,7 +198,8 @@ In this step, we will create a webpage that has the same structure and styling a
       ```
 
       </details>
-* Level 1 Step 2.3
+* Level 1 Step 2.3 <br>
+In this step, we will add the rectangle in the header and position in correctly to the left side of the webpage.
   * Open `step-2.css`.
   * Give the div with a class of `.logo-container` a height and a width so you can see the element on the webpage.
   * Now we need to move the element over to the left like you see in `step-2.jpg`. So lets make it float left by using `float: left`.
@@ -218,7 +221,8 @@ In this step, we will create a webpage that has the same structure and styling a
       ```
 
       </details>
-* Level 1 Step 2.4
+* Level 1 Step 2.4 <br>
+In this step, we will add the square in the header and position in correctly to the right side of the webpage.
   * Open `step-2.css`.
   * Give the div with a class of `.menu-container` a height and a width so you can see the element on the webpage.
   * Now we need to move the element over to the right like you see in `step-2.jpg`. So lets make it float right by using `float: right`.
@@ -291,7 +295,8 @@ In this step, we will update our webpage so that it has the same structure and s
 
 ### Instructions
 * Now open the `step-3` folder and notice that there two items inside. There is a css file named `step-3.css` and an image named `step-3.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-3.css` file. We will also need to add a `<p></p>` tag element in the `index.html` file located in the level-1 folder. Ok, lets begin.
-* Level 1 Step 3.1
+* Level 1 Step 3.1 <br>
+In this step we will start making the content in the `.mid-content` div by adding a header to it.
   * Open `step-3.css`.
   * Lets give the element with a class of `.content-mid-header` a height of 100px. Like this `height: 100px`.
   * Now our element is showing on the webpage. Good Job!
@@ -307,9 +312,10 @@ In this step, we will update our webpage so that it has the same structure and s
       ```
 
       </details>
-* Level 1 Step 3.2
+* Level 1 Step 3.2 <br>
+In this step we will add some text inside of our `.content-left` div.
   * Open `index.html`.
-  * Look for the div with a class of `content`. It is inside the `content-left` div. Once you've found it insert a p tag inside the div and add some text inside.
+  * Look for the div with a class of `.content`. It is inside the `.content-left` div. Once you've found it insert a p tag inside the div and add some text inside.
     * <details>
 
       <summary> <code> Solution to Step 3.2 </code> </summary>
@@ -323,7 +329,8 @@ In this step, we will update our webpage so that it has the same structure and s
       ```
 
       </details>
-* Level 1 Step 3.3
+* Level 1 Step 3.3 <br>
+In this step, we will fix the alignment and positioning of the text we added in the previous step.
   * Open `step-3.css`
   * Now we can see our text is not in the correct spacing. Let's fix that by adding some padding. Like this `padding: 50px`.
   * We should also fix the way the text is aligned. For that lets add `text-align: center`.
@@ -341,9 +348,10 @@ In this step, we will update our webpage so that it has the same structure and s
       ```
 
       </details>
-* Level 1 Step 3.4
+* Level 1 Step 3.4 <br>
+In this step, we will changing the size of the container that is housing the content we added in the previous two steps.
   * Open `step-3.css`.
-  * Give the element with a class of `content- container` a width of 80%. Like this `width: 80%`.
+  * Give the element with a class of `content-container` a width of 80%. Like this `width: 80%`.
   * We can also see in the image that this div has to be centered and moved down a bit. Lets accomplish that by giving it some margin. Like this `margin: 40px auto`.
     * <details>
 
