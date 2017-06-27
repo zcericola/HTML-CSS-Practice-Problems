@@ -183,8 +183,9 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
 
 * Level 1 Step 2.2
   * Open `step-2.css`
-  * Give the div with a class of `.profile-links-container` a height and a width so you can see it on the webpage.
+  * Give the div with a class of `.profile-links-container` a height and a width so you can see the element on the webpage.
   * Now lets try to give the div with a class of `.profile-links-container` a margin top, left and right all at the same time using the short-hand version.
+
   Code Snippet: <details>
 
   <summary> <code></code> </summary>
@@ -196,7 +197,6 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
   ```
 
   </details>
-  *
   * <details>
 
     <summary> <code> Solution to Step 1.2 </code> </summary>
