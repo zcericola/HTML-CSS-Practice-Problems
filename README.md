@@ -45,14 +45,14 @@ In this step, we will create a webpage that has the same structure and styling a
 ### Instructions
 
 * Open the `level-1` folder and take a look inside. We have folders for steps one through three, a solution folder which is step-4, and an `index.html` file. You will be using the same `index.html` file for all three steps in this level.
-* Now open the `step-1` folder, and lets start styling.
-
+* Now open the `step-1` folder and notice that there two items inside. There is a css file named `step-1.css` and an image named `step-1.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-1.css` file. Ok, lets start styling.
 * Level 1 Step 1.1
+In this step, we will position the header at the top of the page.
   * Open `step-1.css`.
   * We need to place the header on the top of the page.
   * The header automatically gets put at the top of the page because it is the first element on the HMTL file. So we don't need to add styling to the header.
-
 * Level 1 Step 1.2
+In this step, we will try to move box named content left to the left side of the page.
   * Open `step-1.css`.
   * Give `.content-left` a css style of `float: left`.
   * <details>
@@ -70,9 +70,8 @@ In this step, we will create a webpage that has the same structure and styling a
     ```
 
     </details>
-
-
 * Level 1 Step 1.3
+In this step, we are going to position the box called content-mid to the left side of the page.
   * Open `step-1.css`.
   * Give `.content-mid` a css style of `float: left`.
   * <details>
@@ -90,9 +89,8 @@ In this step, we will create a webpage that has the same structure and styling a
     ```
 
     </details>
-
-
 * Level 1 Step 1.4
+In this step, we will position the footer at the bottom of the page.
   * Open `step-1.css`.
   * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
   * <details>
@@ -110,7 +108,6 @@ In this step, we will create a webpage that has the same structure and styling a
     ```
 
     </details>
-
 * Level 1 Step 1.5
   * Now all we need to do is change the height and width on the divs so that your webpage looks as close as it can to the `step-1.jpg`.
 
