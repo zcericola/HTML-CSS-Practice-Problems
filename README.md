@@ -426,28 +426,136 @@ In this step, we will be giving the div with a class of `.main-top-section` a po
       </details>
 * Level 2 Step 1.2 <br>
 In this step, we will be positioning the small menu box in the left hand side of the `level-2-step-1.jpg` image.
-  * Let's start by giving `.menu` a display of inline-block. This will make it display side-by-side.
-  * Next lets give `.menu` a position of absolute. Like this `positon: absolute`. This will give you the option to position the `.menu` element according to the first ancestor that has a position. That ancestor will be the `.main-top-section` because we gave it a position of relative in the previous step.
+  * Open `step-1.css`.
+  * Let's start by giving `.menu` a display of inline-block. Like this `display: inline-block`. This will make it display side-by-side.
+  * Next lets give `.menu` a position of absolute. Like this `position: absolute`. This will give you the option to position the `.menu` element according to the first ancestor that has a position. That ancestor will be the `.main-top-section` because we gave it a position of relative in the previous step.
   * Now we have the ability to give the `.menu` div a top, right, bottom, and left css property.
   * Lets give `.menu` a left position of 10px and a top position of 10px. Like this `left: 10x` and `top: 10px`.
-  * Good! Let's keep going!
+  * Now the `.menu` element is in the correct position. But the other two elements are stacked on top. Let's fix that!
+  * Let's give `.logo` a display of inline-block. Like this `display: inline-block`.
+  * Let's also give the element with a class of `.sign-in` a display of inline-block as well.
+  * Now let's give `.sign-in` a position of absolute, and a top and right property to position it correctly. Like this `position: absolute`, `top: 10px`, and `right: 10px`.
+  * That looks better!
     * <details>
 
-    <summary> <code> Solution to Step 1.2 </code> </summary>
+      <summary> <code> Solution to Step 1.2 </code> </summary>
 
-    ```css
-    .menu {
-        width: 100px;
-        height: 40px;
-        display: inline-block;
-        position: absolute;
-        left: 10px;
-        top: 10px;
-        background: #536A63;
-    }
-    ```
+      ```css
+      .menu {
+          width: 100px;
+          height: 40px;
+          background: #536A63;
+          display: inline-block;
+          position: absolute;
+          left: 10px;
+          top: 10px;
+      }
 
-    </details>
+      .logo {
+          width: 300px;
+          height: 40px;
+          margin-top: 10px;
+          background: #536A63;
+          display: inline-block;
+      }
+
+      .sign-in {
+          width: 100px;
+          height: 40px;
+          background: #536A63;
+          display: inline-block;
+          position: absolute;
+          right: 10px;
+          top: 10px;
+      }
+      ```
+
+      </details>
+* Level 2 Step 1.3 <br>
+In this step, we will position the last green element overhanging below its parent element.
+  * Open `step-1.css`.
+  * Now how are we going to move the element towards the bottom in reference to its parent? Position absolute of course! So lets give the element with a class name of `.bottom-container` a position of absolute. Like this `position: absolute`.
+  * Lastly let's give it a bottom and left properties. The bottom property will need to be a negative pixel value so that it is overhangs. Like this `bottom: -30px` and `left: 22%`;
+  * Looking good!
+    * <details>
+
+      <summary> <code> Solution to Step 1.2 </code> </summary>
+
+      ```css
+      .bottom-container {
+          width: 60%;
+          height: 60px;
+          position: absolute;
+          bottom: -30px;
+          left: 22%;
+          background: #536A63;
+      }
+      ```
+
+      </details>
+
+### Solution
+
+<details>
+
+<summary> <code> Solution to Step 1.2 </code> </summary>
+
+```css
+.main-top-section {
+    width: 100%;
+    height: 375px;
+    background: #F7F1E7;
+    position: relative;
+}
+
+.top-header {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background: #D8D8D8;
+}
+
+.menu {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #536A63;
+}
+
+.logo {
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 10px;
+    background: #536A63;
+}
+
+.sign-in {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #536A63;
+}
+
+.bottom-container {
+    width: 60%;
+    height: 60px;
+    position: absolute;
+    bottom: -30px;
+    left: 22%;
+    background: #536A63;
+}
+```
+
+</details>
+
+
 
 
 
