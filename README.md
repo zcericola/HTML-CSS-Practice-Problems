@@ -31,16 +31,14 @@ In this project you will be re-creating multiple html templates using the HTML a
 ## Important Notes
 
 * In this repo we include a folder named `base`, leave this folder alone. You will not need to change any code in this folder to complete the project.
-
 * Each level has an `index.html` file, you will use the same `index.html` file for each of the steps in the current level.
-
 * To see your progress right click on the `index.html` file you are currently working on and select `show in finder`. Then double click on the `index.html` file. This should open up a browser tab with what you have so far.
 
 ## Level 1 Step 1
 
 ### Summary
 
-In this step, we will create a webpage that has the same structure and styling as the `step-1.jpg` image. We will accomplish this by adding some css styles to our already existing HTML document.
+In this step, we will create a webpage that has the same structure and styling as the `step-1.jpg` image. We will accomplish this by adding some css styles to our webpage.
 
 ### Instructions
 
@@ -54,7 +52,7 @@ In this step, we will position the header at the top of the page.
 * Level 1 Step 1.2
 In this step, we will try to move box named content left to the left side of the page.
   * Open `step-1.css`.
-  * Give `.content-left` a css style of `float: left`.
+  * Give `.content-left` a css style of `float: left` and a `padding-top: 35px`. The reason we gave the div with a class of `.content-left` a padding on top is that it will have content inside in the future.
   * <details>
 
     <summary> <code> Solution to Step 1.2 </code> </summary>
@@ -66,6 +64,7 @@ In this step, we will try to move box named content left to the left side of the
       height: 100px;
       background: #565555;
       float: left;
+      padding-top: 35px;
     }
     ```
 
@@ -127,6 +126,7 @@ In this step, we will position the footer at the bottom of the page.
 .content-left {
     width: 33.3%;
     height: 76vh;
+    padding-top: 35px;
     float: left;
     background: #565555;
 }
@@ -153,16 +153,15 @@ In this step, we will position the footer at the bottom of the page.
 
 ### Summary
 
-Modify our webpage so that it has the same structure and styling as the `step-2.jpg` image.
+In this step, we will create a webpage that has the same structure and styling as the `step-2.jpg` image. We will accomplish this by adding more css styles to our webpage.
 
 ### Instructions
 
+* Now open the `step-2` folder and notice that there two items inside. There is a css file named `step-2.css` and an image named `step-2.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-2.css` file. Ok, lets start styling.
 * Level 1 Step 2.1
   * Open `step-2.css`.
   * Give the `.profile-image-container` a height and a width so you can see it on the webpage.
-  * Give the `.profile-image-container` a `margin-left: auto` and a `margin-right: auto`. This will center the div.
-  * Give the `.profile-image-container` a `margin-top: 35px`. This will move the div down 35px;
-  * The div is now looking better but our code is not as DRY as we can make it. Lets switch the three margins we put on `.profile-image-container` and change them to the short-hand version or setting a margin `margin: 35px auto 0 auto`.
+  * Give the `.profile-image-container` a margin of auto.
   * Now that the div with the `.profile-image-container` class is centered you can go in and change the height and width to match the `step-2.jpg`.
   * <details>
 
@@ -172,13 +171,12 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
     .profile-image-container {
         width: 80%;
         height: 180px;
-        margin: 35px auto 0 auto;
+        margin: auto;
         background: #96F0F2;
     }
     ```
 
     </details>
-
 * Level 1 Step 2.2
   * Open `step-2.css`.
   * Give the div with a class of `.profile-links-container` a height and a width so you can see the element on the webpage.
@@ -275,7 +273,7 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
 .profile-image-container {
     width: 80%;
     height: 180px;
-    margin: 35px auto 0 auto;
+    margin: auto;
     background: #96F0F2;
 }
 
@@ -293,10 +291,10 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
 
 ### Summary
 
-Update our webpage so that it has the same structure and styling as the `step-3.jpg` image.
+In this step, we will update our webpage so that it has the same structure and styling as the `step-3.jpg` image. We will accomplish this by adding more css styles to our webpage.
 
 ### Instructions
-
+* Now open the `step-3` folder and notice that there two items inside. There is a css file named `step-3.css` and an image named `step-3.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-3.css` file and an p tag element in the `index.html` file. Ok, lets begin.
 * Level 1 Step 3.1
   * Open `step-3.css`.
   * Lets give the element with a class of `.content-mid-header` a height of 100px. Like this `height: 100px`.
@@ -313,7 +311,6 @@ Update our webpage so that it has the same structure and styling as the `step-3.
     ```
 
     </details>
-
 * Level 1 Step 3.2
   * Open `index.html`.
   * Look for the div with a class of `content`. It is inside the `content-left` div. Once you've found it insert a p tag inside the div and add some text inside.
@@ -330,9 +327,6 @@ Update our webpage so that it has the same structure and styling as the `step-3.
     ```
 
     </details>
-
-
-
 * Level 1 Step 3.3
   * Open `step-3.css`
   * Now we can see our text is not in the correct spacing. Let's fix that by adding some padding. Like this `padding: 50px`.
@@ -351,8 +345,6 @@ Update our webpage so that it has the same structure and styling as the `step-3.
     ```
 
     </details>
-
-
 * Level 1 Step 3.4
   * Open `step-3.css`.
   * Give the element with a class of `content- container` a width of 80%. Like this `width: 80%`.
@@ -370,7 +362,6 @@ Update our webpage so that it has the same structure and styling as the `step-3.
     ```
 
     </details>
-
   * Wow! That looks pretty good. Congratulations you have finished level-1!
 
 ### Solution
