@@ -121,13 +121,11 @@ Create a webpage that has the same structure and styling as the `step-1.jpg` ima
     width: 100%;
     height: 100px;
     background: #D8D8D8;
-
 }
 
 .content-left {
     width: 33.3%;
     height: 76vh;
-    padding-top: 35px;
     float: left;
     background: #565555;
 }
@@ -137,7 +135,6 @@ Create a webpage that has the same structure and styling as the `step-1.jpg` ima
     height: 76vh;
     float: left;
     background: #B0B0B0;
-
 }
 
 .footer {
@@ -172,10 +169,10 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
 
     ```css
     .profile-image-container {
-      width: 80%;
-      height: 180px;
-      margin: 35px auto 0 auto;
-      background: #96F0F2;
+        width: 80%;
+        height: 180px;
+        margin: 35px auto 0 auto;
+        background: #96F0F2;
     }
     ```
 
@@ -277,7 +274,7 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
 .profile-image-container {
     width: 80%;
     height: 180px;
-    margin: auto;
+    margin: 35px auto 0 auto;
     background: #96F0F2;
 }
 
@@ -293,6 +290,114 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
 
 ## Level 1 Step 3
 
+### Summary
+
+Update our webpage so that it has the same structure and styling as the `step-3.jpg` image.
+
+### Instructions
+
+* Level 1 Step 3.1
+  * Open `step-3.css`.
+  * Lets give the element with a class of `.content-mid-header` a height of 100px. Like this `height: 100px`.
+  * Now our element is showing on the webpage. Good Job!
+  * <details>
+
+    <summary> <code> Solution to Step 3.1 </code> </summary>
+
+    ```css
+    .content-mid-header {
+        background: #444;
+        height: 100px;
+    }
+    ```
+
+    </details>
+
+* Level 1 Step 3.2
+  * Open `index.html`.
+  * Look for the div with a class of `content`. It is inside the `content-left` div. Once you've found it insert a p tag inside the div and add some text inside.
+  * <details>
+
+    <summary> <code> Solution to Step 3.2 </code> </summary>
+
+    ```html
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    ```
+
+    </details>
+
+
+
+* Level 1 Step 3.3
+  * Open `step-3.css`
+  * Now we can see our text is not in the correct spacing. Let's fix that by adding some padding. Like this `padding: 50px`.
+  * We should also fix the way the text is aligned. For that lets add `text-align: center`.
+  * Lastly our div seems to look a little short. Giving it a height should fix that. Try this `height: 275px`. Looking alot better. Lets continue!
+  * <details>
+
+    <summary> <code> Solution to Step 3.3 </code> </summary>
+
+    ```css
+    .content {
+      padding: 50px;
+      text-align: center;
+      height: 275px;
+    }
+    ```
+
+    </details>
+
+
+* Level 1 Step 3.4
+  * Open `step-1.css`.
+  * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
+  * <details>
+
+    <summary> <code> Solution to Step 1.4 </code> </summary>
+
+    ```css
+    .footer {
+        width: 100%;
+        height: 100px;
+        background: #3A3A3A;
+        position: absolute;
+        bottom: 0;
+    }
+    ```
+
+    </details>
+
+* Level 1 Step 1.5
+  * Now all we need to do is change the height and width on the divs so that your webpage looks as close as it can to the `step-1.jpg`.
+
+### Solution
+
+<details>
+
+<summary> <code>step-1.css</code> </summary>
+
+```css
+.content-mid-header {
+    height: 100px;
+    background: #444;
+}
+
+.content-container {
+    width: 80%;
+    margin: 40px auto;
+    background: #D8D8D8;
+}
+
+.content {
+    height: 275px;
+    padding:50px;
+    text-align: center;
+}
+```
+
+</details>
 
 
 ## Copyright

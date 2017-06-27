@@ -1,6 +1,7 @@
-/* Step-3.1  Not much to do here except add a width */
+/* Step-3.1  Not much to do here except add a height */
 .content-mid-header {
     background: #444;
+    height: 100px;
 }
 
 
@@ -13,5 +14,7 @@
 /* Step-3.2  Remember to add some padding and text-align*/
 
 .content {
-
+  padding: 50px;
+  text-align: center;
+  height: 275px;
 }
