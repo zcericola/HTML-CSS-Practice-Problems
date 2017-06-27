@@ -49,7 +49,7 @@ Create a webpage that has the same structure and styling as the `step-1.jpg` ima
   * The header automatically gets put at the top of the page because it is the first element on the HMTL file. So we don't need to change the header.
 
 * Level 1 Step 1.2
-  * Open `step-1.css`
+  * Open `step-1.css`.
   * Give `.content-left` a css style of `float: left`.
   * <details>
 
@@ -69,7 +69,7 @@ Create a webpage that has the same structure and styling as the `step-1.jpg` ima
 
 
 * Level 1 Step 1.3
-  * Open `step-1.css`
+  * Open `step-1.css`.
   * Give `.content-mid` a css style of `float: left`.
   * <details>
 
@@ -89,7 +89,7 @@ Create a webpage that has the same structure and styling as the `step-1.jpg` ima
 
 
 * Level 1 Step 1.4
-  * Open `step-1.css`
+  * Open `step-1.css`.
   * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
   * <details>
 
@@ -244,46 +244,6 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
         margin-right: 10px;
         margin-top: 20px;
         background: #4F4949;
-    }
-    ```
-
-    </details>
-
-  * <details>
-
-    <summary> <code> Solution to Step 2.4 </code> </summary>
-
-    ```css
-    .logo-container {
-        width: 26%;
-        height: 60px;
-        float: left;
-        margin-left: 30px;
-        margin-top: 20px;
-        background: #4F4949;
-    }
-
-    .menu-container {
-        width: 60px;
-        height: 60px;
-        float: right;
-        margin-right: 10px;
-        margin-top: 20px;
-        background: #4F4949;
-    }
-
-    .profile-image-container {
-        width: 80%;
-        height: 180px;
-        margin: auto;
-        background: #96F0F2;
-    }
-
-    .profile-links-container {
-        width: 80%;
-        height: 300px;
-        margin: 20px auto;
-        background: #12F3F7;
     }
     ```
 
