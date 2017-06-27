@@ -571,16 +571,16 @@ In this step, we will be using a css property to align items in the center of th
   * Give the element with the class name of `main-bottom-section` a property of text-align with a value of center. Like this `text-align: center`.
     * <details>
 
-    <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+      <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
 
-    ```css
-    .main-bottom-section {
-        margin-top: 65px;
-        text-align: center;
-    }
-    ```
+      ```css
+      .main-bottom-section {
+          margin-top: 65px;
+          text-align: center;
+      }
+      ```
 
-    </details>
+      </details>
 * Level 2 Step 2.2 <br>
 In this step, we will be adding a width, height and display property to make the small square containers look like the `level-2-step-2.jpg` image.
   * In the `level-2-step-2.jpg` image you can see there are three different types of boxes in the bottom container. The small square, the rectangle, and the big square.
@@ -591,19 +591,19 @@ In this step, we will be adding a width, height and display property to make the
   * Looks perfect!
     * <details>
 
-    <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+      <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
 
-    ```css
-    .item {
-        display: inline-block;
-        height: 200px;
-        width: 40%;
-        background: #DED6D3;
-        margin-bottom: 30px;
-    }
-    ```
+      ```css
+      .item {
+          display: inline-block;
+          height: 200px;
+          width: 40%;
+          background: #DED6D3;
+          margin-bottom: 30px;
+      }
+      ```
 
-    </details>
+      </details>
 * Level 2 Step 2.3 <br>
 In this step, we will be adding a width, height and a margin property to make the rectangle container look like the `level-2-step-2.jpg` image.
   * Open `step-2.css`.
@@ -611,18 +611,18 @@ In this step, we will be adding a width, height and a margin property to make th
   * Now the element is the right size but too close to the surrounding elements. Lets fix that by giving `.full-width-item` a css property of margin with the correct value. Like this `margin 0 auto 30px`. When you give an element a margin property with 3 values it takes the first value as the margin-top the two middle values as the left and right margins and the last value as the bottom-margin.
     * <details>
 
-    <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+      <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
 
-    ```css
-    .full-width-item {
-        width: 80%;
-        height: 200px;
-        margin:0 auto 30px;
-        background: #DED6D3;
-    }
-    ```
+      ```css
+      .full-width-item {
+          width: 80%;
+          height: 200px;
+          margin:0 auto 30px;
+          background: #DED6D3;
+      }
+      ```
 
-    </details>
+      </details>
 * Level 2 Step 2.4 <br>
 In this step, we will add a height, width and a margin to make the big square look like the `level-2-step-2.jpg` image.
   * Open `step-2.css`.
@@ -631,18 +631,18 @@ In this step, we will add a height, width and a margin to make the big square lo
   * Nice! Congratulations you've finished level-2.
     * <details>
 
-    <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+      <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
 
-    ```css
-    .large-item {
-        width: 80%;
-        height: 500px;
-        margin:0 auto 30px;
-        background: #DED6D3;
-    }
-    ```
+      ```css
+      .large-item {
+          width: 80%;
+          height: 500px;
+          margin:0 auto 30px;
+          background: #DED6D3;
+      }
+      ```
 
-    </details>
+      </details>
 
 ### Solution
 
