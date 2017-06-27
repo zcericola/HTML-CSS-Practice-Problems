@@ -182,20 +182,20 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
     </details>
 
 * Level 1 Step 2.2
-  * Open `step-2.css`
+  * Open `step-2.css`.
   * Give the div with a class of `.profile-links-container` a height and a width so you can see the element on the webpage.
   * Now lets try to give the div with a class of `.profile-links-container` a margin top, left and right all at the same time using the short-hand version. Like this `margin: 20px auto;`.
+  * Now that the div with the `.profile-links-container` class is centered you can go in and change the height and width to match the `step-2.jpg`.
   * <details>
 
-    <summary> <code> Solution to Step 1.2 </code> </summary>
+    <summary> <code> Solution to Step 2.2 </code> </summary>
 
     ```css
-    .content-left{
-      width: 33.3%;
-      <!-- this height is a placeholder. You will need to make some adjustments to get this container to look like the design -->
-      height: 100px;
-      background: #565555;
-      float: left;
+    .profile-links-container {
+        width: 80%;
+        height: 300px;
+        margin: 20px auto;
+        background: #12F3F7;
     }
     ```
 
@@ -203,19 +203,23 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
 
 
 * Level 1 Step 2.3
-  * Open `step-1.css`
-  * Give `.content-mid` a css style of `float: left`.
+  * Open `step-2.css`.
+  * Give the div with a class of `.logo-container` a height and a width so you can see the element on the webpage.
+  * Now we need to move the element over to the left like you see in `step-2.jpg`. So lets make it float left by using `float: left`.
+  * Now the element is too close to the top-left corner. So lets give it a `margin-top` and a `margin-left`. Like this `margin-top: 20px` and `margin-left: 10px`.
+  * The last thing we need to do is fix the height and the width to make our webpage look as close as we can to `step-2.jpg`.
   * <details>
 
-    <summary> <code> Solution to Step 1.3 </code> </summary>
+    <summary> <code> Solution to Step 2.3 </code> </summary>
 
     ```css
-    .content-mid {
-        width: 66.3%;
-        <!-- this height is a placeholder. You will need to make some adjustment to get this container to look like the design -->
-        height: 100px;
-        background: #B0B0B0;
+    .logo-container {
+        width: 26%;
+        height: 60px;
         float: left;
+        margin-left: 30px;
+        margin-top: 20px;
+        background: #4F4949;
     }
     ```
 
@@ -223,26 +227,67 @@ Modify our webpage so that it has the same structure and styling as the `step-2.
 
 
 * Level 1 Step 2.4
-  * Open `step-1.css`
-  * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
+  * Open `step-2.css`.
+  * Give the div with a class of `.menu-container` a height and a width so you can see the element on the webpage.
+  * Now we need to move the element over to the right like you see in `step-2.jpg`. So lets make it float right by using `float: right`.
+  * Now the element is too close to the top-right corner. So lets give it a `margin-top` and a `margin-right`. Like this `margin-top: 20px` and `margin-right: 30px`.
+  * The last thing we need to do is fix the height and the width to make our webpage look as close as we can to `step-2.jpg`.
   * <details>
 
-    <summary> <code> Solution to Step 1.4 </code> </summary>
+    <summary> <code> Solution to Step 2.4 </code> </summary>
 
     ```css
-    .footer {
-        width: 100%;
-        height: 100px;
-        background: #3A3A3A;
-        position: absolute;
-        bottom: 0;
+    .menu-container {
+        width: 60px;
+        height: 60px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px;
+        background: #4F4949;
     }
     ```
 
     </details>
 
-* Level 1 Step 2.5
-  * Now all we need to do is change the height and width on the divs so that your webpage looks as close as it can to the `step-1.jpg`.
+  * <details>
+
+    <summary> <code> Solution to Step 2.4 </code> </summary>
+
+    ```css
+    .logo-container {
+        width: 26%;
+        height: 60px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 20px;
+        background: #4F4949;
+    }
+
+    .menu-container {
+        width: 60px;
+        height: 60px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px;
+        background: #4F4949;
+    }
+
+    .profile-image-container {
+        width: 80%;
+        height: 180px;
+        margin: auto;
+        background: #96F0F2;
+    }
+
+    .profile-links-container {
+        width: 80%;
+        height: 300px;
+        margin: 20px auto;
+        background: #12F3F7;
+    }
+    ```
+
+    </details>
 
 ### Solution
 

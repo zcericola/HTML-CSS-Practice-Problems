@@ -19,10 +19,13 @@
 
 .logo-container {
     background: #4F4949;
+    height: 50px;
+    width: 50px;
+    float: left;
 }
 
 
-/* Step-2.4 You can either use float left or position absolute to get this element to in the desired location*/
+/* Step-2.4 You can either use float right or position absolute to get this element to in the desired location*/
 
 .menu-container {
     background: #4F4949;
