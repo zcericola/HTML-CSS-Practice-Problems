@@ -114,7 +114,7 @@ In this step, we will position the footer at the bottom of the page.
 
 <details>
 
-<summary> <code>step-1.css</code> </summary>
+<summary> <code>level-1/step-1/step-1.css</code> </summary>
 
 ```css
 .header {
@@ -245,7 +245,7 @@ In this step, we will create a webpage that has the same structure and styling a
 
 <details>
 
-<summary> <code>step-2.css</code> </summary>
+<summary> <code>level-1/step-2/step-2.css</code> </summary>
 
 ```css
 .logo-container {
@@ -290,7 +290,7 @@ In this step, we will create a webpage that has the same structure and styling a
 In this step, we will update our webpage so that it has the same structure and styling as the `step-3.jpg` image. We will accomplish this by adding more css styles to our webpage.
 
 ### Instructions
-* Now open the `step-3` folder and notice that there two items inside. There is a css file named `step-3.css` and an image named `step-3.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-3.css` file and an p tag element in the `index.html` file. Ok, lets begin.
+* Now open the `step-3` folder and notice that there two items inside. There is a css file named `step-3.css` and an image named `step-3.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-3.css` file. We will also need to add a `<p></p>` tag element in the `index.html` file located in the level-1 folder. Ok, lets begin.
 * Level 1 Step 3.1
   * Open `step-3.css`.
   * Lets give the element with a class of `.content-mid-header` a height of 100px. Like this `height: 100px`.
@@ -364,7 +364,7 @@ In this step, we will update our webpage so that it has the same structure and s
 
 <details>
 
-<summary> <code>step-1.css</code> </summary>
+<summary> <code>level-1/step-3/step-3.css</code> </summary>
 
 ```css
 .content-mid-header {
