@@ -322,7 +322,9 @@ Update our webpage so that it has the same structure and styling as the `step-3.
 
     ```html
     <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, </p>
     </div>
     ```
 
@@ -351,26 +353,24 @@ Update our webpage so that it has the same structure and styling as the `step-3.
 
 
 * Level 1 Step 3.4
-  * Open `step-1.css`.
-  * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
+  * Open `step-3.css`.
+  * Give the element with a class of `content- container` a width of 80%. Like this `width: 80%`.
+  * We can also see in the image that this div has to be centered and moved down a bit. Lets accomplish that by giving it some margin. Like this `margin: 40px auto`.
   * <details>
 
-    <summary> <code> Solution to Step 1.4 </code> </summary>
+    <summary> <code> Solution to Step 3.4 </code> </summary>
 
     ```css
-    .footer {
-        width: 100%;
-        height: 100px;
-        background: #3A3A3A;
-        position: absolute;
-        bottom: 0;
+    .content-container {
+      background: #D8D8D8;
+      width: 80%;
+      margin: 40px auto;
     }
     ```
 
     </details>
 
-* Level 1 Step 1.5
-  * Now all we need to do is change the height and width on the divs so that your webpage looks as close as it can to the `step-1.jpg`.
+  * Wow! That looks pretty good. Congratulations you have finished level-1!
 
 ### Solution
 
@@ -392,7 +392,7 @@ Update our webpage so that it has the same structure and styling as the `step-3.
 
 .content {
     height: 275px;
-    padding:50px;
+    padding: 50px;
     text-align: center;
 }
 ```
