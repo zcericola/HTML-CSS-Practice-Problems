@@ -294,6 +294,7 @@ In this step, we will add the square in the header and position in correctly to 
 In this step, we will update our webpage so that it has the same structure and styling as the `level-1/step-3/step-3.jpg` image. We will accomplish this by adding more css styles to our webpage.
 
 ### Instructions
+
 * Now open the `step-3` folder and notice that there two items inside. There is a css file named `step-3.css` and an image named `step-3.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-3.css` file. We will also need to add a `<p></p>` tag element in the `index.html` file located in the level-1 folder. Ok, lets begin.
 * Level 1 Step 3.1 <br>
 In this step we will start making the content in the `.mid-content` div by adding a header to it.
@@ -479,7 +480,7 @@ In this step, we will position the last green element overhanging below its pare
   * Looking good!
     * <details>
 
-      <summary> <code> Solution to Step 1.2 </code> </summary>
+      <summary> <code> Solution to Step 1.3 </code> </summary>
 
       ```css
       .bottom-container {
@@ -498,7 +499,7 @@ In this step, we will position the last green element overhanging below its pare
 
 <details>
 
-<summary> <code> Solution to Step 1.2 </code> </summary>
+<summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
 
 ```css
 .main-top-section {
@@ -554,6 +555,133 @@ In this step, we will position the last green element overhanging below its pare
 ```
 
 </details>
+
+## Level 2 Step 2
+
+### Summary
+
+In this step, we will also be re-creating an image that will be provided to you. We will accomplish this by adding some css styles to our webpage. Good luck!
+
+### Instructions
+
+* Now open the `step-2` folder in level-2 and notice that there two items inside. There is a css file named `step-2.css` and an image named `level-2-step-2.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-2.css` file. Let's go!
+* Level 2 Step 2.1 <br>
+In this step, we will be using a css property to align items in the center of the webpage.
+  * Open `step-2.css`.
+  * Give the element with the class name of `main-bottom-section` a property of text-align with a value of center. Like this `text-align: center`.
+    * <details>
+
+    <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+
+    ```css
+    .main-bottom-section {
+        margin-top: 65px;
+        text-align: center;
+    }
+    ```
+
+    </details>
+* Level 2 Step 2.2 <br>
+In this step, we will be adding a width, height and display property to make the small square containers look like the `level-2-step-2.jpg` image.
+  * In the `level-2-step-2.jpg` image you can see there are three different types of boxes in the bottom container. The small square, the rectangle, and the big square.
+  * Lets give each of these their corresponding height and width.
+  * Open `step-2.css`.
+  * Starting with the small squares which have a class name of `.item`, lets give them a height and a width. Like this `height: 200px` and `width: 40%`.
+  * But our items are not lined up correctly. Lets give them a property so they display side-by-side. Like this `display: inline-block`.
+  * Looks perfect!
+    * <details>
+
+    <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+
+    ```css
+    .item {
+        display: inline-block;
+        height: 200px;
+        width: 40%;
+        background: #DED6D3;
+        margin-bottom: 30px;
+    }
+    ```
+
+    </details>
+* Level 2 Step 2.3 <br>
+In this step, we will be adding a width, height and a margin property to make the rectangle container look like the `level-2-step-2.jpg` image.
+  * Open `step-2.css`.
+  * Now lets focus on the rectangle element with a class of `.full-width-item`. Let's give this element a width and height. Like this `width: 80%` and `height: 200px`.
+  * Now the element is the right size but too close to the surrounding elements. Lets fix that by giving `.full-width-item` a css property of margin with the correct value. Like this `margin 0 auto 30px`. When you give an element a margin property with 3 values it takes the first value as the margin-top the two middle values as the left and right margins and the last value as the bottom-margin.
+    * <details>
+
+    <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+
+    ```css
+    .full-width-item {
+        width: 80%;
+        height: 200px;
+        margin:0 auto 30px;
+        background: #DED6D3;
+    }
+    ```
+
+    </details>
+* Level 2 Step 2.4 <br>
+In this step, we will add a height, width and a margin to make the big square look like the `level-2-step-2.jpg` image.
+  * Open `step-2.css`.
+  * On the element with a class name of `.large-item` let's give it a height and with property. Like this `height: 500px` and `width: 80%`.
+  * Again too close to the surrounding elements lets give it some margin. Like this `margin: 0, auto, 30px`.
+  * Nice! Congratulations you've finished level-2.
+    * <details>
+
+    <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+
+    ```css
+    .large-item {
+        width: 80%;
+        height: 500px;
+        margin:0 auto 30px;
+        background: #DED6D3;
+    }
+    ```
+
+    </details>
+
+### Solution
+
+<details>
+
+<summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+
+```css
+.main-bottom-section {
+    margin-top: 65px;
+    text-align: center;
+
+}
+
+.item {
+    display: inline-block;
+    height: 200px;
+    width: 40%;
+    background: #DED6D3;
+    margin-bottom: 30px;
+}
+
+.full-width-item {
+    width: 80%;
+    height: 200px;
+    margin:0 auto 30px;
+    background: #DED6D3;
+}
+
+.large-item {
+    width: 80%;
+    height: 500px;
+    margin:0 auto 30px;
+    background: #DED6D3;
+}
+```
+
+</details>
+
 
 
 
