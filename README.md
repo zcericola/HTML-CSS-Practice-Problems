@@ -163,87 +163,83 @@ In this step, we will create a webpage that has the same structure and styling a
   * Give the `.profile-image-container` a height and a width so you can see it on the webpage.
   * Give the `.profile-image-container` a margin of auto.
   * Now that the div with the `.profile-image-container` class is centered you can go in and change the height and width to match the `step-2.jpg`.
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 2.1 </code> </summary>
+      <summary> <code> Solution to Step 2.1 </code> </summary>
 
-    ```css
-    .profile-image-container {
-        width: 80%;
-        height: 180px;
-        margin: auto;
-        background: #96F0F2;
-    }
-    ```
+      ```css
+      .profile-image-container {
+          width: 80%;
+          height: 180px;
+          margin: auto;
+          background: #96F0F2;
+      }
+      ```
 
-    </details>
+      </details>
 * Level 1 Step 2.2
   * Open `step-2.css`.
   * Give the div with a class of `.profile-links-container` a height and a width so you can see the element on the webpage.
   * Now lets try to give the div with a class of `.profile-links-container` a margin top, left and right all at the same time using the short-hand version. Like this `margin: 20px auto;`.
   * Now that the div with the `.profile-links-container` class is centered you can go in and change the height and width to match the `step-2.jpg`.
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 2.2 </code> </summary>
+      <summary> <code> Solution to Step 2.2 </code> </summary>
 
-    ```css
-    .profile-links-container {
-        width: 80%;
-        height: 300px;
-        margin: 20px auto;
-        background: #12F3F7;
-    }
-    ```
+      ```css
+      .profile-links-container {
+          width: 80%;
+          height: 300px;
+          margin: 20px auto;
+          background: #12F3F7;
+      }
+      ```
 
-    </details>
-
-
+      </details>
 * Level 1 Step 2.3
   * Open `step-2.css`.
   * Give the div with a class of `.logo-container` a height and a width so you can see the element on the webpage.
   * Now we need to move the element over to the left like you see in `step-2.jpg`. So lets make it float left by using `float: left`.
   * Now the element is too close to the top-left corner. So lets give it a `margin-top` and a `margin-left`. Like this `margin-top: 20px` and `margin-left: 10px`.
   * The last thing we need to do is fix the height and the width to make our webpage look as close as we can to `step-2.jpg`.
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 2.3 </code> </summary>
+      <summary> <code> Solution to Step 2.3 </code> </summary>
 
-    ```css
-    .logo-container {
-        width: 26%;
-        height: 60px;
-        float: left;
-        margin-left: 30px;
-        margin-top: 20px;
-        background: #4F4949;
-    }
-    ```
+      ```css
+      .logo-container {
+          width: 26%;
+          height: 60px;
+          float: left;
+          margin-left: 30px;
+          margin-top: 20px;
+          background: #4F4949;
+      }
+      ```
 
-    </details>
-
-
+      </details>
 * Level 1 Step 2.4
   * Open `step-2.css`.
   * Give the div with a class of `.menu-container` a height and a width so you can see the element on the webpage.
   * Now we need to move the element over to the right like you see in `step-2.jpg`. So lets make it float right by using `float: right`.
   * Now the element is too close to the top-right corner. So lets give it a `margin-top` and a `margin-right`. Like this `margin-top: 20px` and `margin-right: 30px`.
   * The last thing we need to do is fix the height and the width to make our webpage look as close as we can to `step-2.jpg`.
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 2.4 </code> </summary>
+      <summary> <code> Solution to Step 2.4 </code> </summary>
 
-    ```css
-    .menu-container {
-        width: 60px;
-        height: 60px;
-        float: right;
-        margin-right: 10px;
-        margin-top: 20px;
-        background: #4F4949;
-    }
-    ```
+      ```css
+      .menu-container {
+          width: 60px;
+          height: 60px;
+          float: right;
+          margin-right: 10px;
+          margin-top: 20px;
+          background: #4F4949;
+      }
+      ```
 
-    </details>
+      </details>
 
 ### Solution
 
@@ -299,69 +295,69 @@ In this step, we will update our webpage so that it has the same structure and s
   * Open `step-3.css`.
   * Lets give the element with a class of `.content-mid-header` a height of 100px. Like this `height: 100px`.
   * Now our element is showing on the webpage. Good Job!
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 3.1 </code> </summary>
+      <summary> <code> Solution to Step 3.1 </code> </summary>
 
-    ```css
-    .content-mid-header {
-        background: #444;
-        height: 100px;
-    }
-    ```
+      ```css
+      .content-mid-header {
+          background: #444;
+          height: 100px;
+      }
+      ```
 
-    </details>
+      </details>
 * Level 1 Step 3.2
   * Open `index.html`.
   * Look for the div with a class of `content`. It is inside the `content-left` div. Once you've found it insert a p tag inside the div and add some text inside.
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 3.2 </code> </summary>
+      <summary> <code> Solution to Step 3.2 </code> </summary>
 
-    ```html
-    <div class="content">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, </p>
-    </div>
-    ```
+      ```html
+      <div class="content">
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, </p>
+      </div>
+      ```
 
-    </details>
+      </details>
 * Level 1 Step 3.3
   * Open `step-3.css`
   * Now we can see our text is not in the correct spacing. Let's fix that by adding some padding. Like this `padding: 50px`.
   * We should also fix the way the text is aligned. For that lets add `text-align: center`.
-  * Lastly our div seems to look a little short. Giving it a height should fix that. Try this `height: 275px`. Looking alot better. Lets continue!
-  * <details>
+  * Lastly our div seems to look a little short. Giving it a height should fix that. Try this `height: 275px`. Looking a lot better. Let's continue!
+    * <details>
 
-    <summary> <code> Solution to Step 3.3 </code> </summary>
+      <summary> <code> Solution to Step 3.3 </code> </summary>
 
-    ```css
-    .content {
-      padding: 50px;
-      text-align: center;
-      height: 275px;
-    }
-    ```
+      ```css
+      .content {
+        padding: 50px;
+        text-align: center;
+        height: 275px;
+      }
+      ```
 
-    </details>
+      </details>
 * Level 1 Step 3.4
   * Open `step-3.css`.
   * Give the element with a class of `content- container` a width of 80%. Like this `width: 80%`.
   * We can also see in the image that this div has to be centered and moved down a bit. Lets accomplish that by giving it some margin. Like this `margin: 40px auto`.
-  * <details>
+    * <details>
 
-    <summary> <code> Solution to Step 3.4 </code> </summary>
+      <summary> <code> Solution to Step 3.4 </code> </summary>
 
-    ```css
-    .content-container {
-      background: #D8D8D8;
-      width: 80%;
-      margin: 40px auto;
-    }
-    ```
+      ```css
+      .content-container {
+        background: #D8D8D8;
+        width: 80%;
+        margin: 40px auto;
+      }
+      ```
 
-    </details>
+      </details>
   * Wow! That looks pretty good. Congratulations you have finished level-1!
 
 ### Solution
