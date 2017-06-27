@@ -44,7 +44,7 @@ In this step, we will create a webpage that has the same structure and styling a
 
 * Open the `level-1` folder and take a look inside. We have folders for steps one through three, a solution folder which is step-4, and an `index.html` file. You will be using the same `index.html` file for all three steps in this level.
 * Now open the `step-1` folder and notice that there two items inside. There is a css file named `step-1.css` and an image named `step-1.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-1.css` file. Ok, lets start styling.
-* Level 1 Step 1.1
+* Level 1 Step 1.1 <br>
 In this step, we will position the header at the top of the page.
   * Open `step-1.css`.
   * We need to place the header on the top of the page.
