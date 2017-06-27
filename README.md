@@ -611,7 +611,7 @@ In this step, we will be adding a width, height and a margin property to make th
   * Now the element is the right size but too close to the surrounding elements. Lets fix that by giving `.full-width-item` a css property of margin with the correct value. Like this `margin 0 auto 30px`. When you give an element a margin property with 3 values it takes the first value as the margin-top the two middle values as the left and right margins and the last value as the bottom-margin.
     * <details>
 
-      <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+      <summary> <code>level-2/step-2/level-2-step-2.css</code> </summary>
 
       ```css
       .full-width-item {
@@ -631,7 +631,7 @@ In this step, we will add a height, width and a margin to make the big square lo
   * Nice! Congratulations you've finished level-2.
     * <details>
 
-      <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+      <summary> <code>level-2/step-2/level-2-step-2.css</code> </summary>
 
       ```css
       .large-item {
@@ -648,7 +648,7 @@ In this step, we will add a height, width and a margin to make the big square lo
 
 <details>
 
-<summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
+<summary> <code>level-2/step-2/level-2-step-2.css</code> </summary>
 
 ```css
 .main-bottom-section {
@@ -682,6 +682,133 @@ In this step, we will add a height, width and a margin to make the big square lo
 
 </details>
 
+## Level 3 Step 1
+
+### Summary
+
+In this step, we will be adding the images and logos to the layout designs that we made in the previous two levels. We'll be combining them to create a one big design. Have fun!
+
+### Instructions
+
+* Open the `level-3` folder and take a look inside. We have an `img` folder, folders for three steps, a solution folder which is named `step-4-possible-solution`, and an `index.html` file. You will be using the same `index.html` file for all three steps in this level.
+* Check out what's inside the `img` folder. You will be using these images and icons in your webpage.
+* Now open the `step-1` folder and notice that there two items inside. There is a css file named `step-1.css` and an image named `level-3-step-1.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-1.css` file. Ok, lets start styling.
+* Level 3 Step 1.1 <br>
+In this step, we will be adding a background image to the `main-top-section`.
+  * Open `step-1.css`.
+  * Give the element with a class of `.main-top-section` a background property with a value pointing to the `Background.png` image inside the `img` folder. Like this `background: url("../img/Background.png") no-repeat`. First you set the background to `url()`. Then you used `..` to go up one directory, then `/img` to enter the `img` folder, then `/Background.png` to select the background image file. Then adding `no-repeat` to the back of the url will make the image not repeat. By default the image will repeat to cover the whole page.
+  * Next let's give the background image a property of `background-size` with a value of `cover`. Like this `background-size: cover`.
+  * Looks great! On to the next step.
+    * <details>
+
+      <summary> <code>level-2/step-2/level-2-step-2.css</code> </summary>
+
+      ```css
+      .main-top-section {
+          width: 100%;
+          height: 530px;
+          position: relative;
+          background: url("../img/Background.png") no-repeat;
+          background-size: cover;
+      }
+      ```
+
+      </details>
+* Level 3 Step 1.2 <br>
+In this step, we will be adding the src path on each of the images in the top half of the webpage.
+  * Open `index.html`.
+  * Find the `<img>` tag with a class of `menu-icon`.
+  * Give it a src path that will point to `MENU.png` in the `img/icons` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="menu-icon" src="../img/icons/MENU.png" alt="menu icon">
+      ```
+
+      </details>
+  * Find the `<img>` tag with a class of `logo-icon`.
+  * Give it a src path that will point to `dev-shop.png` in the `img/icons` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="logo-icon" src="../img/icons/dev-shop.png" alt="logo icon">
+      ```
+
+      </details>
+  * Find the `<img>` tag with a class of `sign-in-icon`.
+  * Give it a src path that will point to `Sign_In.png` in the `img/icons` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="sign-in-icon" src="../img/icons/Sign_In.png" alt="sign in  icon">
+      ```
+
+      </details>
+  * Find the `<img>` tag with a class of `shop-icon`.
+  * Give it a src path that will point to `Shop_Deals.png` in the `img/icons` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="shop-icon" src="../img/icons/Shop_Deals.png" alt="shop icon">
+      ```
+
+      </details>
+
+## Level 3 Step 1
+
+### Summary
+
+In this step, we will continue to add the images and logos to the layout designs that we made in the previous two levels. We'll be combining them to create a one big design. Good luck!
+
+### Instructions
+
+* Level 3 Step 2.1 <br>
+In this step, we will be adding the src path on each of the images in the bottom half of the webpage.
+  * Open `index.html`.
+  * Find the `<img>` tag with a class of `item-image` that is inside the div with both classes `item tops`.
+  * Give it a src path that will point to `Tops.png` in the `img` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="item-image" src="../img/Tops.png" alt="tops">
+      ```
+
+      </details>
+  * Find the `<img>` tag with a class of `item-image` that is inside the div with both classes `item bottoms`.
+  * Give it a src path that will point to `bottoms.png` in the `img` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="item-image" src="../img/bottoms.png" alt="tops">
+      ```
+
+      </details>
+  * Find the `<img>` tag with a class of `item-image` that is inside the div with both classes `full-width-item accessories`.
+  * Give it a src path that will point to `accessories.png` in the `img` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="item-image" src="../img/accessories.png" alt="tops">
+      ```
+
+      </details>
+
+
+### Solution
 
 
 
