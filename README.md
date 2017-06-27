@@ -38,7 +38,7 @@ In this project you will be re-creating multiple html templates using the HTML a
 
 ### Summary
 
-In this step, we will create a webpage that has the same structure and styling as the `step-1.jpg` image. We will accomplish this by adding some css styles to our webpage.
+In this step, we will create a webpage that has the same structure and styling as the `level-1/step-1/step-1.jpg` image. We will accomplish this by adding some css styles to our webpage.
 
 ### Instructions
 
@@ -153,7 +153,7 @@ In this step, we will position the footer at the bottom of the page.
 
 ### Summary
 
-In this step, we will create a webpage that has the same structure and styling as the `step-2.jpg` image. We will accomplish this by adding more css styles to our webpage.
+In this step, we will create a webpage that has the same structure and styling as the `level-1/step-2/step-2.jpg` image. We will accomplish this by adding more css styles to our webpage.
 
 ### Instructions
 
@@ -291,7 +291,7 @@ In this step, we will add the square in the header and position in correctly to 
 
 ### Summary
 
-In this step, we will update our webpage so that it has the same structure and styling as the `step-3.jpg` image. We will accomplish this by adding more css styles to our webpage.
+In this step, we will update our webpage so that it has the same structure and styling as the `level-1/step-3/step-3.jpg` image. We will accomplish this by adding more css styles to our webpage.
 
 ### Instructions
 * Now open the `step-3` folder and notice that there two items inside. There is a css file named `step-3.css` and an image named `step-3.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-3.css` file. We will also need to add a `<p></p>` tag element in the `index.html` file located in the level-1 folder. Ok, lets begin.
@@ -394,6 +394,66 @@ In this step, we will changing the size of the container that is housing the con
 ```
 
 </details>
+
+## Level 2 Step 1
+
+### Summary
+
+In this step, we will also be re-creating an image that will be provided to you. We will accomplish this by adding some css styles to our webpage. Good luck!
+
+### Instructions
+
+* Open the `level-2` folder and take a look inside. We have folders for two steps, a solution folder which is name `step-3-possible-solution`, and an `index.html` file. You will be using the same `index.html` file for both steps in this level.
+* Now open the `step-1` folder and notice that there two items inside. There is a css file named `step-1.css` and an image named `level-2-step-1.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-1.css` file. Ok, lets start styling.
+* Level 2 Step 1.1 <br>
+In this step, we will be giving the div with a class of `.main-top-section` a position property that will allow its future child elements to change their position according to it.
+  * Open `step-1.css`.
+  * Give `.main-top-section` a position property of relative. Like this `position: relative`.
+  * The reason we do this is that future children elements that will use a position of absolute will refer to the first parent with a set position. So we set a position on `.main-top-section` to have it be the parent being referred to.
+    * <details>
+
+      <summary> <code> Solution to Step 1.1 </code> </summary>
+
+      ```css
+      .main-top-section {
+          width: 100%;
+          height: 375px;
+          background: #F7F1E7;
+          position: relative;
+      }
+      ```
+
+      </details>
+* Level 2 Step 1.2 <br>
+In this step, we will be positioning the small menu box in the left hand side of the `level-2-step-1.jpg` image.
+  * Let's start by giving `.menu` a display of inline-block. This will make it display side-by-side.
+  * Next lets give `.menu` a position of absolute. Like this `positon: absolute`. This will give you the option to position the `.menu` element according to the first ancestor that has a position. That ancestor will be the `.main-top-section` because we gave it a position of relative in the previous step.
+  * Now we have the ability to give the `.menu` div a top, right, bottom, and left css property.
+  * Lets give `.menu` a left position of 10px and a top position of 10px. Like this `left: 10x` and `top: 10px`.
+  * Good! Let's keep going!
+    * <details>
+
+    <summary> <code> Solution to Step 1.2 </code> </summary>
+
+    ```css
+    .menu {
+        width: 100px;
+        height: 40px;
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background: #536A63;
+    }
+    ```
+
+    </details>
+
+
+
+
+
+
 
 
 
