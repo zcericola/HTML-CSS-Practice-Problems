@@ -50,7 +50,7 @@ In this step, we will position the header at the top of the page.
   * We need to place the header on the top of the page.
   * The header automatically gets put at the top of the page because it is the first element on the HMTL file. So we don't need to add styling to the header.
 * Level 1 Step 1.2 <br>
-In this step, we will try to move box named content left to the left side of the page.
+In this step, we will try to move box with a class of `content-left` to the left side of the page.
   * Open `step-1.css`.
   * Give `.content-left` a css style of `float: left` and a `padding-top: 35px`. The reason we gave the div with a class of `.content-left` a padding on top is that it will have content inside in the future.
     * <details>
@@ -70,7 +70,7 @@ In this step, we will try to move box named content left to the left side of the
 
       </details>
 * Level 1 Step 1.3 <br>
-In this step, we are going to position the box called content-mid to the left side of the page.
+In this step, we are going to position the box with a class of `content-mid` to line up directly to the right of `.content-left`.
   * Open `step-1.css`.
   * Give `.content-mid` a css style of `float: left`.
     * <details>
