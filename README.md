@@ -872,8 +872,6 @@ In this step, we will be adding the src path on each of the images in the bottom
       ```
 
       </details>
-      *
-
 
 ### Solution
 
