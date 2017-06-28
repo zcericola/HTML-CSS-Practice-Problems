@@ -1,4 +1,3 @@
-
 .main-top-section {
     width: 100%;
     height: 530px;
@@ -110,25 +109,14 @@
 
 }
 
-/* Set a min-width of 900px inside this media query */
-
-@media(/* ADD SOME CODE HERE*/) {
-
-    /* add a different width to these classes to make them look better on larger screens */
-
+@media(min-width: 900px) {
     .item {
-       /*Add width*/
+        width:400px;
     }
-
     .full-width-item {
-        /*Add width*/
-
+        width: 800px;
     }
-
-
     .large-item {
-        /*Add width*/
-
+        width: 800px;
     }
 }
-

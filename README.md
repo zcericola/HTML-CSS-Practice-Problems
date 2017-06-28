@@ -762,7 +762,40 @@ In this step, we will be adding the src path on each of the images in the top ha
 
       </details>
 
-## Level 3 Step 1
+### Solution
+
+<details>
+
+<summary> <code>level-3/index.html</code> </summary>
+
+```html
+<section class="main-top-section">
+    <header class="top-header">
+
+        <div class="menu">
+            <!-- Step-1.2 add the path to the menu image on the src attribute -->
+            <img class="menu-icon" src="../img/icons/MENU.png" alt="menu icon">
+        </div>
+        <div class="logo">
+            <!-- Step-1.3 add the path to the dev-shop image on the src attribute -->
+            <img class="logo-icon" src="../img/icons/dev-shop.png" alt="logo icon">
+        </div>
+        <div class="sign-in">
+            <!-- Step-1.4 add the path to the sign-in image on the src attribute -->
+            <img class="sign-in-icon" src="../img/icons/Sign_In.png" alt="sign in icon">
+        </div>
+    </header>
+
+    <div class="bottom-container">
+        <!-- Step-1.5 add the path to shop-deals image on the src attribute -->
+        <img class="shop-icon" src="../img/icons/Shop_Deals.png" alt="shop icon">
+    </div>
+</section>
+```
+
+</details>
+
+## Level 3 Step 2
 
 ### Summary
 
@@ -806,9 +839,351 @@ In this step, we will be adding the src path on each of the images in the bottom
       ```
 
       </details>
+  * Find the `<img>` tag with a class of `item-image` that is inside the div with a class of `large-item`.
+  * Give it a src path that will point to `collection.png` in the `img` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="item-image" src="../img/collection.png" alt="tops">
+      ```
+
+      </details>
+  * Find the `<img>` tag with a class of `item-image` that is inside the div with both classes `item kicks`.
+  * Give it a src path that will point to `kicks.png` in the `img` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="item-image" src="../img/kicks.png" alt="tops">
+      ```
+
+      </details>
+  * Find the `<img>` tag with a class of `item-image` that is inside the div with both classes `item hats`. C
+  * Give it a src path that will point to `hats.png` in the `img` folder.
+    * <details>
+
+      <summary> <code>Correct src path</code> </summary>
+
+      ```html
+      <img class="item-image" src="../img/hats.png" alt="tops">
+      ```
+
+      </details>
+      *
 
 
 ### Solution
+
+<details>
+
+<summary> <code>level-3/index.html</code> </summary>
+
+```html
+<section class="main-top-section">
+    <header class="top-header">
+
+        <div class="menu">
+            <!-- Step-1.2 add the path to the menu image on the src attribute -->
+            <img class="menu-icon" src="../img/icons/MENU.png" alt="menu icon">
+        </div>
+        <div class="logo">
+            <!-- Step-1.3 add the path to the dev-shop image on the src attribute -->
+            <img class="logo-icon" src="../img/icons/dev-shop.png" alt="logo icon">
+        </div>
+        <div class="sign-in">
+            <!-- Step-1.4 add the path to the sign-in image on the src attribute -->
+            <img class="sign-in-icon" src="../img/icons/Sign_In.png" alt="sign in icon">
+        </div>
+    </header>
+
+    <div class="bottom-container">
+        <!-- Step-1.5 add the path to shop-deals image on the src attribute -->
+        <img class="shop-icon" src="../img/icons/Shop_Deals.png" alt="shop icon">
+    </div>
+</section>
+```
+
+</details>
+
+## Level 3 Step 3
+
+## Summary
+
+In this step, we will be giving our page a little taste of responsiveness. We will be making our images stop growing at a certain screen width. Lets begin!
+
+## Instructions
+
+* Open `index.html`.
+* Inside the `<head></head>` uncomment the link to `step-3.css`, and comment out the links to `step-1.css` and `step-2.css`.
+* Now open the `step-3` folder. There is a css file named `step-3.css`. In this css file is where we will try to add media queries to make our webpage responsive.
+* Scroll to the bottom of the page and look at the syntax for creating a media query. There are some missing pieces but we'll fill them in step by step.
+* Inside the parenthesis `@media(  inside here  )` is where we will specify the mix or max width the query will start. We will also include the pixel at which the query will start.
+Like this `@media(min-width: 900px)`. This means that starting at a minimum width of 900px the following css styles will be activated.
+* Now inside there are three css declaration blocks `.item`, `.full-width-item`, and `.large-item`. Inside each of these set a width property with a pixel value.
+* After completing the previous step go to your webpage in the browser and make the browser window width as small as you can and then increase it little by little. The images should stop growing at a width of over 900px.
+* Great Job! You just made an amazing looking webpage. Congratulations you have finished this project.
+  * <details>
+
+    <summary> <code>level-3/step-3/step-3.css</code> </summary>
+
+    ```css
+    @media(min-width: 900px) {
+        .item {
+            width:400px;
+        }
+        .full-width-item {
+            width: 800px;
+        }
+        .large-item {
+            width: 800px;
+        }
+    }
+    ```
+
+    </details>
+
+### Solution
+
+<details>
+
+<summary> <code>level-3/index.html</code> </summary>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>level-3</title>
+    <link rel="stylesheet" href="../base/base.css">
+
+    <meta author="Ben Callis">
+    <!-- STEP 1 CSS FILE **** STEP 1 CSS FILE *** STEP 1 CSS FILE -->
+    <!-- <link rel="stylesheet" href="step-1/step-1.css"> -->
+
+    <!-- STEP 2 CSS FILE **** STEP 2 CSS FILE *** STEP 2 CSS FILE -->
+    <!-- <link rel="stylesheet" href="step-2/step-2.css"> -->
+
+    <!--&lt;!&ndash; STEP 3 CSS FILE WHEN YOU GET THIS FAR COMMENT OUT step-2.css and step-1.css AND JUST WORK OF THIS FILE &ndash;&gt;-->
+    <link rel="stylesheet" href="step-3/step-3.css">
+
+
+</head>
+<body>
+
+<main class="main-wrapper">
+    <!-- Step-1.1 add a background image that take up the entire width of container -->
+    <section class="main-top-section">
+        <header class="top-header">
+
+            <div class="menu">
+                <!-- Step-1.2 add the path to the menu image on the src attribute -->
+                <img class="menu-icon" src="./img/icons/MENU.png" alt="menu icon">
+            </div>
+            <div class="logo">
+                <!-- Step-1.3 add the path to the dev-shop image on the src attribute -->
+                <img class="logo-icon" src="./img/icons/dev-shop.png" alt="logo icon">
+            </div>
+            <div class="sign-in">
+                <!-- Step-1.4 add the path to the sign-in image  on the src attribute -->
+                <img class="sign-in-icon" src="./img/icons/Sign_In.png" alt="sign in  icon">
+            </div>
+        </header>
+
+        <div class="bottom-container">
+            <!-- Step-1.5 add the path to shop-deals image on the src attribute -->
+            <img class="shop-icon" src="./img/icons/Shop_Deals.png" alt="shop icon">
+        </div>
+    </section>
+
+    <section class="main-bottom-section">
+
+        <div class="item tops">
+
+            <!-- Step-2.1 add the path to tops image on the src attribute -->
+            <img class="item-image" src="./img/Tops.png" alt="tops">
+
+        </div>
+        <div class="item bottoms">
+
+            <!-- Step-2.2 add the path to bottoms image on the src attribute -->
+            <img class="item-image" src="./img/bottoms.png" alt="tops">
+
+        </div>
+
+        <div class="full-width-item accessories">
+
+            <!-- Step-2.3 add the path to accessories image on the src attribute -->
+            <img class="item-image" src="./img/accessories.png" alt="tops">
+
+        </div>
+
+        <div class="large-item">
+
+            <!-- Step-2.4 add the path to collection image on the src attribute -->
+            <img class="item-image" src="./img/collection.png" alt="tops">
+
+        </div>
+
+        <div class="item kicks">
+
+            <!-- Step-2.5 add the path to kicks image on the src attribute -->
+            <img class="item-image" src="./img/kicks.png" alt="tops">
+
+        </div>
+        <div class="item hats">
+
+            <!-- Step-2.6 add the path to hats image on the src attribute -->
+            <img class="item-image" src="./img/hats.png" alt="tops">
+
+        </div>
+
+    </section>
+
+</main>
+</body>
+</html>
+```
+
+</details>
+
+<details>
+
+<summary> <code>level-3/step-3/step-3.css</code> </summary>
+
+```css
+
+.main-top-section {
+    width: 100%;
+    height: 530px;
+    position: relative;
+    background: url("../img/Background.png") no-repeat;
+    background-size: cover;
+
+}
+
+
+.top-header {
+    width: 100%;
+    padding-top: 10px;
+    height: 70px;
+    text-align: center;
+
+}
+
+
+.menu {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+
+.menu-icon {
+    width: 60%;
+
+}
+
+.logo {
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.logo-icon {
+    width: 75%;
+}
+
+.sign-in {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+
+}
+
+.sign-in-icon {
+    width: 60%;
+}
+
+
+.bottom-container {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    text-align: center;
+    bottom: -30px;
+
+}
+
+
+.shop-icon {
+    width: 350px;
+}
+
+
+.main-bottom-section {
+    margin-top: 65px;
+    text-align: center;
+
+}
+
+.item {
+    display: inline-block;
+    width: 40%;
+    background: #D6CFC9;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.item-image {
+    width: 100%;
+    display: block;
+}
+
+.full-width-item {
+    width: 80%;
+    margin:0 auto 20px;
+    cursor: pointer;
+
+}
+
+
+.large-item {
+    width: 80%;
+    margin:0 auto 20px;
+    cursor: pointer;
+
+}
+
+@media(min-width: 900px) {
+    .item {
+        width:400px;
+    }
+    .full-width-item {
+        width: 800px;
+    }
+    .large-item {
+        width: 800px;
+    }
+}
+```
+
+</details>
+
+
+
 
 
 
