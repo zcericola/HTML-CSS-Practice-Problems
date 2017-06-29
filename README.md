@@ -57,7 +57,8 @@ In this step, we will position the header at the top of the page.
 In this step, we will try to move box with a class of `content-left` to the left side of the page.
 
   * Open `step-1.css`.
-  * Give `.content-left` a css property that will make it float to the left. Also give it a  `padding-top: 35px`. The reason we gave the div with a class of `.content-left` a padding on top is that it will have content inside in the future.
+  * Give `.content-left` a css property that will make it float to the left.
+  * Give `.content-left` a `padding-top: 35px`. The reason we gave the div with a class of `.content-left` a padding on top is that it will have content inside in the future.
     * <details>
 
       <summary> <code> Solution to Step 1.2 </code> </summary>
