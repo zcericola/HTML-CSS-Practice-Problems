@@ -50,7 +50,6 @@ In this step, we will create a webpage that has the same structure and styling a
 In this step, we will position the header at the top of the page.
 
   * Open `step-1.css`.
-  * We need to place the header on the top of the page.
   * The header automatically gets put at the top of the page because it is the first element on the HMTL file. So we don't need to add styling to the header.
 
 #### Level 1 Step 1.2
@@ -58,7 +57,7 @@ In this step, we will position the header at the top of the page.
 In this step, we will try to move box with a class of `content-left` to the left side of the page.
 
   * Open `step-1.css`.
-  * Give `.content-left` a css style of `float: left` and a `padding-top: 35px`. The reason we gave the div with a class of `.content-left` a padding on top is that it will have content inside in the future.
+  * Give `.content-left` a css property that will make it float to the left. Also give it a  `padding-top: 35px`. The reason we gave the div with a class of `.content-left` a padding on top is that it will have content inside in the future.
     * <details>
 
       <summary> <code> Solution to Step 1.2 </code> </summary>
@@ -81,7 +80,7 @@ In this step, we will try to move box with a class of `content-left` to the left
 In this step, we are going to position the box with a class of `content-mid` to line up directly to the right of `.content-left`.
 
   * Open `step-1.css`.
-  * Give `.content-mid` a css style of `float: left`.
+  * Give `.content-mid` a css property that will make it float into the position directly after `content-left`.
     * <details>
 
       <summary> <code> Solution to Step 1.3 </code> </summary>
@@ -103,7 +102,7 @@ In this step, we are going to position the box with a class of `content-mid` to 
 In this step, we will position the footer at the bottom of the page.
 
   * Open `step-1.css`.
-  * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
+  * Give `.footer` a css property so that it positions itself in relation to its parent and then move it to the lowest point of the parent element.
     * <details>
 
       <summary> <code> Solution to Step 1.4 </code> </summary>
@@ -179,7 +178,7 @@ In this step, we will add the first box in the content-left container.
 
   * Open `step-2.css`.
   * Give the `.profile-image-container` a height and a width so you can see it on the webpage.
-  * Give the `.profile-image-container` a margin of auto.
+  * Give the `.profile-image-container` a margin so that it is centered.
   * Now that the div with the `.profile-image-container` class is centered you can go in and change the height and width to match the `step-2.jpg`.
     * <details>
 
@@ -202,7 +201,7 @@ In this step, we will add the second box in the content-left container.
 
   * Open `step-2.css`.
   * Give the div with a class of `.profile-links-container` a height and a width so you can see the element on the webpage.
-  * Now lets try to give the div with a class of `.profile-links-container` a margin top, left and right all at the same time using the short-hand version. Like this `margin: 20px auto;`.
+  * Now lets try to give the div with a class of `.profile-links-container` a margin top, left and right all at the same time using the short-hand syntax.
   * Now that the div with the `.profile-links-container` class is centered you can go in and change the height and width to match the `step-2.jpg`.
     * <details>
 
@@ -225,8 +224,8 @@ In this step, we will add the rectangle in the header and position in correctly 
 
   * Open `step-2.css`.
   * Give the div with a class of `.logo-container` a height and a width so you can see the element on the webpage.
-  * Now we need to move the element over to the left like you see in `step-2.jpg`. So lets make it float left by using `float: left`.
-  * Now the element is too close to the top-left corner. So lets give it a `margin-top` and a `margin-left`. Like this `margin-top: 20px` and `margin-left: 10px`.
+  * Now we need to move the element over to the left like you see in `step-2.jpg`. So lets give it a css property that will make it move to the left.
+  * Now the element is too close to the top-left corner. So lets give it some margin to move it to the correct position.
   * The last thing we need to do is fix the height and the width to make our webpage look as close as we can to `step-2.jpg`.
     * <details>
 
@@ -251,8 +250,8 @@ In this step, we will add the square in the header and position in correctly to 
 
   * Open `step-2.css`.
   * Give the div with a class of `.menu-container` a height and a width so you can see the element on the webpage.
-  * Now we need to move the element over to the right like you see in `step-2.jpg`. So lets make it float right by using `float: right`.
-  * Now the element is too close to the top-right corner. So lets give it a `margin-top` and a `margin-right`. Like this `margin-top: 20px` and `margin-right: 30px`.
+  * Now we need to move the element over to the right like you see in `step-2.jpg`. So let's give it a css property to move it to the right.
+  * Now the element is too close to the top-right corner. So lets give it some margin to position it correctly.
   * The last thing we need to do is fix the height and the width to make our webpage look as close as we can to `step-2.jpg`.
     * <details>
 
@@ -328,7 +327,7 @@ In this step, we will update our webpage so that it has the same structure and s
 In this step we will start making the content in the `.mid-content` div by adding a header to it.
 
   * Open `step-3.css`.
-  * Lets give the element with a class of `.content-mid-header` a height of 100px. Like this `height: 100px`.
+  * Lets give the element with a class of `.content-mid-header` a height so it appears like the template image.
   * Now our element is showing on the webpage. Good Job!
     * <details>
 
@@ -368,9 +367,10 @@ In this step we will add some text inside of our `.content-left` div.
 In this step, we will fix the alignment and positioning of the text we added in the previous step.
 
   * Open `step-3.css`
-  * Now we can see our text is not in the correct spacing. Let's fix that by adding some padding. Like this `padding: 50px`.
+  * Now we can see our text is too close to the borders. Give it some spacing around the edges. There are multiple ways of doing this.
   * We should also fix the way the text is aligned. For that lets add `text-align: center`.
-  * Lastly our div seems to look a little short. Giving it a height should fix that. Try this `height: 275px`. Looking a lot better. Let's continue!
+  * Lastly our div seems to look a little short. Give it a css property to make it taller.
+  * Looking a lot better. Let's continue!
     * <details>
 
       <summary> <code> Solution to Step 3.3 </code> </summary>
@@ -390,8 +390,8 @@ In this step, we will fix the alignment and positioning of the text we added in 
 In this step, we will changing the size of the container that is housing the content we added in the previous two steps.
 
   * Open `step-3.css`.
-  * Give the element with a class of `content-container` a width of 80%. Like this `width: 80%`.
-  * We can also see in the image that this div has to be centered and moved down a bit. Lets accomplish that by giving it some margin. Like this `margin: 40px auto`.
+  * Give the element with a class of `content-container` a css property that will make it the right width.
+  * We can also see in the image that this div has to be centered and moved down a bit. Lets accomplish that by giving it a css property that will add spacing on the outside of the div.
     * <details>
 
       <summary> <code> Solution to Step 3.4 </code> </summary>
@@ -472,14 +472,14 @@ In this step, we will be giving the div with a class of `.main-top-section` a po
 In this step, we will be positioning the small menu box in the left hand side of the `level-2-step-1.jpg` image.
 
   * Open `step-1.css`.
-  * Let's start by giving `.menu` a display of inline-block. Like this `display: inline-block`. This will make it display side-by-side.
+  * Let's start by giving `.menu` a property that will make it display side-by-side.
   * Next lets give `.menu` a position of absolute. Like this `position: absolute`. This will give you the option to position the `.menu` element according to the first ancestor that has a position. That ancestor will be the `.main-top-section` because we gave it a position of relative in the previous step.
-  * Now we have the ability to give the `.menu` div a top, right, bottom, and left css property.
-  * Lets give `.menu` a left position of 10px and a top position of 10px. Like this `left: 10x` and `top: 10px`.
+  * Now we have the ability to give the `.menu` div a top, right, bottom, and left css property. Give `.menu` two of these css properties to position it correctly.
   * Now the `.menu` element is in the correct position. But the other two elements are stacked on top. Let's fix that!
-  * Let's give `.logo` a display of inline-block. Like this `display: inline-block`.
-  * Let's also give the element with a class of `.sign-in` a display of inline-block as well.
-  * Now let's give `.sign-in` a position of absolute, and a top and right property to position it correctly. Like this `position: absolute`, `top: 10px`, and `right: 10px`.
+  * Let's give `.logo` a css property that will make it display side-by-side.
+  * Let's also give the element with a class of `.sign-in` a a css property that will make it display side-by-side.
+  * Now let's give `.sign-in` a css property that will give it a position in relation to its parent.
+  * Now `.sign-in` can be moved by using top, right, bottom, and left. Use some of these to position it correctly.
   * That looks better!
     * <details>
 
@@ -522,8 +522,8 @@ In this step, we will be positioning the small menu box in the left hand side of
 In this step, we will position the last green element overhanging below its parent element.
 
   * Open `step-1.css`.
-  * Now how are we going to move the element towards the bottom in reference to its parent? Position absolute of course! So lets give the element with a class name of `.bottom-container` a position of absolute. Like this `position: absolute`.
-  * Lastly let's give it a bottom and left properties. The bottom property will need to be a negative pixel value so that it is overhangs. Like this `bottom: -30px` and `left: 22%`;
+  * Now how are we going to move the `.bottom-container` element towards the bottom in reference to its parent? Lets give the element with a class name of `.bottom-container` a position that will move it in relation to its parent.
+  * Lastly let's give it a bottom and left properties. The bottom property will need to be a negative pixel value so that it is overhangs.
   * Looking good!
     * <details>
 
@@ -618,7 +618,7 @@ In this step, we will also be re-creating an image that will be provided to you.
 In this step, we will be using a css property to align items in the center of the webpage.
 
   * Open `step-2.css`.
-  * Give the element with the class name of `main-bottom-section` a property of text-align with a value of center. Like this `text-align: center`.
+  * Give the element with the class name of `main-bottom-section` a property that will center the text inside.
     * <details>
 
       <summary> <code>level-2/step-1/level-1-step-3.css</code> </summary>
@@ -639,8 +639,8 @@ In this step, we will be adding a width, height and display property to make the
   * In the `level-2-step-2.jpg` image you can see there are three different types of boxes in the bottom container. The small square, the rectangle, and the big square.
   * Lets give each of these their corresponding height and width.
   * Open `step-2.css`.
-  * Starting with the small squares which have a class name of `.item`, lets give them a height and a width. Like this `height: 200px` and `width: 40%`.
-  * But our items are not lined up correctly. Lets give them a property so they display side-by-side. Like this `display: inline-block`.
+  * Starting with the small squares which have a class name of `.item`, lets give them a height and a width.
+  * But our items are not lined up correctly. Lets give them a property so they display side-by-side.
   * Looks perfect!
     * <details>
 
@@ -663,8 +663,8 @@ In this step, we will be adding a width, height and display property to make the
 In this step, we will be adding a width, height and a margin property to make the rectangle container look like the `level-2-step-2.jpg` image.
 
   * Open `step-2.css`.
-  * Now lets focus on the rectangle element with a class of `.full-width-item`. Let's give this element a width and height. Like this `width: 80%` and `height: 200px`.
-  * Now the element is the right size but too close to the surrounding elements. Lets fix that by giving `.full-width-item` a css property of margin with the correct value. Like this `margin 0 auto 30px`. When you give an element a margin property with 3 values it takes the first value as the margin-top the two middle values as the left and right margins and the last value as the bottom-margin.
+  * Now lets focus on the rectangle element with a class of `.full-width-item`. Let's give this element a width and height.
+  * Now the element is the right size but too close to the surrounding elements. Lets fix that by giving `.full-width-item` a css property of margin with the correct value. Like this `margin 0 auto 30px`. When you give an element a margin property with 3 values it takes the first value as the margin-top the middle value as the left and right margins and the last value as the bottom-margin.
     * <details>
 
       <summary> <code>level-2/step-2/level-2-step-2.css</code> </summary>
@@ -685,8 +685,8 @@ In this step, we will be adding a width, height and a margin property to make th
 In this step, we will add a height, width and a margin to make the big square look like the `level-2-step-2.jpg` image.
 
   * Open `step-2.css`.
-  * On the element with a class name of `.large-item` let's give it a height and with property. Like this `height: 500px` and `width: 80%`.
-  * Again too close to the surrounding elements lets give it some margin. Like this `margin: 0, auto, 30px`.
+  * On the element with a class name of `.large-item` let's give it a height and with property.
+  * Again too close to the surrounding elements lets give it some margin. Try to use the short hand syntax.
   * Nice! Congratulations you've finished level-2.
     * <details>
 
@@ -759,7 +759,7 @@ In this step, we will be adding a background image to the `main-top-section`.
 
   * Open `step-1.css`.
   * Give the element with a class of `.main-top-section` a background property with a value pointing to the `Background.png` image inside the `img` folder. Like this `background: url("../img/Background.png") no-repeat`. First you set the background to `url()`. Then you used `..` to go up one directory, then `/img` to enter the `img` folder, then `/Background.png` to select the background image file. Then adding `no-repeat` to the back of the url will make the image not repeat. By default the image will repeat to cover the whole page.
-  * Next let's give the background image a property of `background-size` with a value of `cover`. Like this `background-size: cover`.
+  * Next let's give the background image a css size property to make it cover the page.
   * Looks great! On to the next step.
     * <details>
 
@@ -1249,6 +1249,14 @@ Like this `@media(min-width: 900px)`. This means that starting at a minimum widt
 
 </details>
 
+## Contributions
+
+If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
+
 ## Copyright
 
 © DevMountain LLC, 2016. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
+
+<p align="center">
+<img src="https://devmounta.in/img/logowhiteblue.png" width="250">
+</p>
