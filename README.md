@@ -978,11 +978,11 @@ In this step, we will be adding the src path on each of the images in the bottom
 
 ## Level 3 Step 3
 
-## Summary
+### Summary
 
 In this step, we will be giving our page a little taste of responsiveness. We will be making our images stop growing at a certain screen width. Lets begin!
 
-## Instructions
+### Instructions
 
 * Open `index.html`.
 * Inside the `<head></head>` uncomment the link to `step-3.css`, and comment out the links to `step-1.css` and `step-2.css`.
