@@ -75,8 +75,11 @@ In this step, we will try to move box with a class of `content-left` to the left
       ```
 
       </details>
-* Level 1 Step 1.3 <br>
+
+#### Level 1 Step 1.3
+
 In this step, we are going to position the box with a class of `content-mid` to line up directly to the right of `.content-left`.
+
   * Open `step-1.css`.
   * Give `.content-mid` a css style of `float: left`.
     * <details>
@@ -94,8 +97,11 @@ In this step, we are going to position the box with a class of `content-mid` to 
       ```
 
       </details>
-* Level 1 Step 1.4 <br>
+
+#### Level 1 Step 1.4
+
 In this step, we will position the footer at the bottom of the page.
+
   * Open `step-1.css`.
   * Give `.footer` a css style of `position: absolute` and `bottom: 0`.
     * <details>
@@ -113,7 +119,9 @@ In this step, we will position the footer at the bottom of the page.
       ```
 
       </details>
-* Level 1 Step 1.5
+
+#### Level 1 Step 1.5
+
   * Now all we need to do is change the height and width on the divs so that your webpage looks as close as it can to the `step-1.jpg`.
 
 ### Solution
@@ -164,8 +172,11 @@ In this step, we will create a webpage that has the same structure and styling a
 ### Instructions
 
 * Now open the `step-2` folder and notice that there two items inside. There is a css file named `step-2.css` and an image named `step-2.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-2.css` file. Ok, lets start styling.
-* Level 1 Step 2.1 <br>
+
+#### Level 1 Step 2.1
+
 In this step, we will add the first box in the content-left container.
+
   * Open `step-2.css`.
   * Give the `.profile-image-container` a height and a width so you can see it on the webpage.
   * Give the `.profile-image-container` a margin of auto.
@@ -184,8 +195,11 @@ In this step, we will add the first box in the content-left container.
       ```
 
       </details>
-* Level 1 Step 2.2 <br>
+
+#### Level 1 Step 2.2
+
 In this step, we will add the second box in the content-left container.
+
   * Open `step-2.css`.
   * Give the div with a class of `.profile-links-container` a height and a width so you can see the element on the webpage.
   * Now lets try to give the div with a class of `.profile-links-container` a margin top, left and right all at the same time using the short-hand version. Like this `margin: 20px auto;`.
@@ -204,8 +218,11 @@ In this step, we will add the second box in the content-left container.
       ```
 
       </details>
-* Level 1 Step 2.3 <br>
+
+#### Level 1 Step 2.3
+
 In this step, we will add the rectangle in the header and position in correctly to the left side of the webpage.
+
   * Open `step-2.css`.
   * Give the div with a class of `.logo-container` a height and a width so you can see the element on the webpage.
   * Now we need to move the element over to the left like you see in `step-2.jpg`. So lets make it float left by using `float: left`.
@@ -227,8 +244,11 @@ In this step, we will add the rectangle in the header and position in correctly 
       ```
 
       </details>
-* Level 1 Step 2.4 <br>
+
+#### Level 1 Step 2.4
+
 In this step, we will add the square in the header and position in correctly to the right side of the webpage.
+
   * Open `step-2.css`.
   * Give the div with a class of `.menu-container` a height and a width so you can see the element on the webpage.
   * Now we need to move the element over to the right like you see in `step-2.jpg`. So lets make it float right by using `float: right`.
@@ -302,8 +322,11 @@ In this step, we will update our webpage so that it has the same structure and s
 ### Instructions
 
 * Now open the `step-3` folder and notice that there two items inside. There is a css file named `step-3.css` and an image named `step-3.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-3.css` file. We will also need to add a `<p></p>` tag element in the `index.html` file located in the level-1 folder. Ok, lets begin.
-* Level 1 Step 3.1 <br>
+
+#### Level 1 Step 3.1
+
 In this step we will start making the content in the `.mid-content` div by adding a header to it.
+
   * Open `step-3.css`.
   * Lets give the element with a class of `.content-mid-header` a height of 100px. Like this `height: 100px`.
   * Now our element is showing on the webpage. Good Job!
@@ -319,10 +342,13 @@ In this step we will start making the content in the `.mid-content` div by addin
       ```
 
       </details>
-* Level 1 Step 3.2 <br>
+
+#### Level 1 Step 3.2
+
 In this step we will add some text inside of our `.content-left` div.
+
   * Open `index.html`.
-  * Look for the div with a class of `.content`. It is inside the `.content-left` div. Once you've found it insert a p tag inside the div and add some text inside.
+  * Look for the div with a class of `.content`. It is inside the `.content-left` div. Once you've found it insert a paragraph text inside the div.
     * <details>
 
       <summary> <code> Solution to Step 3.2 </code> </summary>
@@ -336,8 +362,11 @@ In this step we will add some text inside of our `.content-left` div.
       ```
 
       </details>
-* Level 1 Step 3.3 <br>
+
+#### Level 1 Step 3.3
+
 In this step, we will fix the alignment and positioning of the text we added in the previous step.
+
   * Open `step-3.css`
   * Now we can see our text is not in the correct spacing. Let's fix that by adding some padding. Like this `padding: 50px`.
   * We should also fix the way the text is aligned. For that lets add `text-align: center`.
@@ -355,8 +384,11 @@ In this step, we will fix the alignment and positioning of the text we added in 
       ```
 
       </details>
-* Level 1 Step 3.4 <br>
+
+# Level 1 Step 3.4
+
 In this step, we will changing the size of the container that is housing the content we added in the previous two steps.
+
   * Open `step-3.css`.
   * Give the element with a class of `content-container` a width of 80%. Like this `width: 80%`.
   * We can also see in the image that this div has to be centered and moved down a bit. Lets accomplish that by giving it some margin. Like this `margin: 40px auto`.
@@ -412,8 +444,11 @@ In this step, we will also be re-creating an image that will be provided to you.
 
 * Open the `level-2` folder and take a look inside. We have folders for two steps, a solution folder which is name `step-3-possible-solution`, and an `index.html` file. You will be using the same `index.html` file for both steps in this level.
 * Now open the `step-1` folder and notice that there two items inside. There is a css file named `step-1.css` and an image named `level-2-step-1.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-1.css` file. Ok, lets start styling.
-* Level 2 Step 1.1 <br>
+
+#### Level 2 Step 1.1
+
 In this step, we will be giving the div with a class of `.main-top-section` a position property that will allow its future child elements to change their position according to it.
+
   * Open `step-1.css`.
   * Give `.main-top-section` a position property of relative. Like this `position: relative`.
   * The reason we do this is that future children elements that will use a position of absolute will refer to the first parent with a set position. So we set a position on `.main-top-section` to have it be the parent being referred to.
@@ -431,8 +466,11 @@ In this step, we will be giving the div with a class of `.main-top-section` a po
       ```
 
       </details>
-* Level 2 Step 1.2 <br>
+
+#### Level 2 Step 1.2
+
 In this step, we will be positioning the small menu box in the left hand side of the `level-2-step-1.jpg` image.
+
   * Open `step-1.css`.
   * Let's start by giving `.menu` a display of inline-block. Like this `display: inline-block`. This will make it display side-by-side.
   * Next lets give `.menu` a position of absolute. Like this `position: absolute`. This will give you the option to position the `.menu` element according to the first ancestor that has a position. That ancestor will be the `.main-top-section` because we gave it a position of relative in the previous step.
@@ -478,8 +516,11 @@ In this step, we will be positioning the small menu box in the left hand side of
       ```
 
       </details>
-* Level 2 Step 1.3 <br>
+
+#### Level 2 Step 1.3
+
 In this step, we will position the last green element overhanging below its parent element.
+
   * Open `step-1.css`.
   * Now how are we going to move the element towards the bottom in reference to its parent? Position absolute of course! So lets give the element with a class name of `.bottom-container` a position of absolute. Like this `position: absolute`.
   * Lastly let's give it a bottom and left properties. The bottom property will need to be a negative pixel value so that it is overhangs. Like this `bottom: -30px` and `left: 22%`;
@@ -571,8 +612,11 @@ In this step, we will also be re-creating an image that will be provided to you.
 ### Instructions
 
 * Now open the `step-2` folder in level-2 and notice that there two items inside. There is a css file named `step-2.css` and an image named `level-2-step-2.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-2.css` file. Let's go!
-* Level 2 Step 2.1 <br>
+
+#### Level 2 Step 2.1
+
 In this step, we will be using a css property to align items in the center of the webpage.
+
   * Open `step-2.css`.
   * Give the element with the class name of `main-bottom-section` a property of text-align with a value of center. Like this `text-align: center`.
     * <details>
@@ -587,8 +631,11 @@ In this step, we will be using a css property to align items in the center of th
       ```
 
       </details>
-* Level 2 Step 2.2 <br>
+
+#### Level 2 Step 2.2
+
 In this step, we will be adding a width, height and display property to make the small square containers look like the `level-2-step-2.jpg` image.
+
   * In the `level-2-step-2.jpg` image you can see there are three different types of boxes in the bottom container. The small square, the rectangle, and the big square.
   * Lets give each of these their corresponding height and width.
   * Open `step-2.css`.
@@ -610,8 +657,11 @@ In this step, we will be adding a width, height and display property to make the
       ```
 
       </details>
-* Level 2 Step 2.3 <br>
+
+#### Level 2 Step 2.3
+
 In this step, we will be adding a width, height and a margin property to make the rectangle container look like the `level-2-step-2.jpg` image.
+
   * Open `step-2.css`.
   * Now lets focus on the rectangle element with a class of `.full-width-item`. Let's give this element a width and height. Like this `width: 80%` and `height: 200px`.
   * Now the element is the right size but too close to the surrounding elements. Lets fix that by giving `.full-width-item` a css property of margin with the correct value. Like this `margin 0 auto 30px`. When you give an element a margin property with 3 values it takes the first value as the margin-top the two middle values as the left and right margins and the last value as the bottom-margin.
@@ -629,8 +679,11 @@ In this step, we will be adding a width, height and a margin property to make th
       ```
 
       </details>
-* Level 2 Step 2.4 <br>
+
+#### Level 2 Step 2.4
+
 In this step, we will add a height, width and a margin to make the big square look like the `level-2-step-2.jpg` image.
+
   * Open `step-2.css`.
   * On the element with a class name of `.large-item` let's give it a height and with property. Like this `height: 500px` and `width: 80%`.
   * Again too close to the surrounding elements lets give it some margin. Like this `margin: 0, auto, 30px`.
@@ -699,8 +752,11 @@ In this step, we will be adding the images and logos to the layout designs that 
 * Open the `level-3` folder and take a look inside. We have an `img` folder, folders for three steps, a solution folder which is named `step-4-possible-solution`, and an `index.html` file. You will be using the same `index.html` file for all three steps in this level.
 * Check out what's inside the `img` folder. You will be using these images and icons in your webpage.
 * Now open the `step-1` folder and notice that there two items inside. There is a css file named `step-1.css` and an image named `level-3-step-1.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-1.css` file. Ok, lets start styling.
-* Level 3 Step 1.1 <br>
+
+#### Level 3 Step 1.1
+
 In this step, we will be adding a background image to the `main-top-section`.
+
   * Open `step-1.css`.
   * Give the element with a class of `.main-top-section` a background property with a value pointing to the `Background.png` image inside the `img` folder. Like this `background: url("../img/Background.png") no-repeat`. First you set the background to `url()`. Then you used `..` to go up one directory, then `/img` to enter the `img` folder, then `/Background.png` to select the background image file. Then adding `no-repeat` to the back of the url will make the image not repeat. By default the image will repeat to cover the whole page.
   * Next let's give the background image a property of `background-size` with a value of `cover`. Like this `background-size: cover`.
@@ -720,8 +776,11 @@ In this step, we will be adding a background image to the `main-top-section`.
       ```
 
       </details>
-* Level 3 Step 1.2 <br>
+
+#### Level 3 Step 1.2
+
 In this step, we will be adding the src path on each of the images in the top half of the webpage.
+
   * Open `index.html`.
   * Find the `<img>` tag with a class of `menu-icon`.
   * Give it a src path that will point to `MENU.png` in the `img/icons` folder.
@@ -809,8 +868,12 @@ In this step, we will continue to add the images and logos to the layout designs
 
 ### Instructions
 
-* Level 3 Step 2.1 <br>
+* Now open the `step-2` folder in level-3 and notice that there two items inside. There is a css file named `step-2.css` and an image named `level-3-step-2.jpg`. The image in this folder is what you will try to re-create. We will accomplish this by adding some styling in the `step-2.css` file. Let's go!
+
+#### Level 3 Step 2.1
+
 In this step, we will be adding the src path on each of the images in the bottom half of the webpage.
+
   * Open `index.html`.
   * Find the `<img>` tag with a class of `item-image` that is inside the div with both classes `item tops`.
   * Give it a src path that will point to `Tops.png` in the `img` folder.
