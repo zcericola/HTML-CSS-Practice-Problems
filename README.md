@@ -369,7 +369,7 @@ In this step, we will fix the alignment and positioning of the text we added in 
 
   * Open `step-3.css`
   * Now we can see our text is too close to the borders. Give it some spacing around the edges. There are multiple ways of doing this.
-  * We should also fix the way the text is aligned. For that lets add `text-align: center`.
+  * We should also fix the way the text is aligned. Center the text.
   * Lastly our div seems to look a little short. Give it a css property to make it taller.
   * Looking a lot better. Let's continue!
     * <details>
@@ -386,7 +386,7 @@ In this step, we will fix the alignment and positioning of the text we added in 
 
       </details>
 
-# Level 1 Step 3.4
+#### Level 1 Step 3.4
 
 In this step, we will changing the size of the container that is housing the content we added in the previous two steps.
 
