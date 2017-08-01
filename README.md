@@ -6,6 +6,8 @@ In this project, you will be given three levels of practice using HTML and CSS. 
 
 If you get stuck on a level you can view the solution folder provided in each level. Try to only use this folder as a last resort.
 
+There are so many different ways to accomplish layout in HTML and CSS. Our solution is just one of many. Don't worry about being pixel perfect.
+
 # Level 1
 
 ## Step 1
