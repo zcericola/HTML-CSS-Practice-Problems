@@ -74,7 +74,36 @@ There are so many different ways to accomplish layout in HTML and CSS. Our solut
 * Locate the element with the class of `large-item`.
   * Add a width, height, and margin.
 
+# Level 3
 
+## Step 1
+
+* Open `level-3/index.html` && `level-3/step-1.css` && `level-3/step-1.css`.
+* Locate the element with the class of `main-top-section`.
+  * Add a background color of `#F2EFE5`.
+* Locate the element with the class of `menu-icon`.
+  * Link the src path to `level-3/img/icons/MENU`.
+* Locate the element with the class of `logo-icon`.
+  * Link the src path to `level-3/img/icons/dev-shop`.
+* Locate the element with the class of `sign-in`.
+  * Link the src path to `level-3/img/icons/Sign_In`.
+* Locate the element with the class of `shop-icon`.
+  * Link the src path to `level-3/img/icons/Shop_Deals`.
+
+## Step 2
+
+* Locate the element with the class of `item-image` and alt of `tops`.
+  * Link the src path to `level-3/img/Tops.png`.
+* Locate the element with the class of `item-image` and alt of `bottoms`.
+  * Link the src path to `level-3/img/bottoms.png`.
+* Locate the element with the class of `item-image` and alt of `accessories`.
+  * Link the src path to `level-3/img/accessories.png`.
+* Locate the element with the class of `item-image` and alt of `collection`.
+  * Link the src path to `level-3/img/collection.png`.
+* Locate the element with the class of `item-image` and alt of `kicks`.
+  * Link the src path to `level-3/img/kicks.png`.
+* Locate the element with the class of `item-image` and alt of `hats`.
+  * Link the src path to `level-3/img/hats.png`
 
 ## Contributions
 

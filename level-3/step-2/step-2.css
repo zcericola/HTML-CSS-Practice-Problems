@@ -7,7 +7,7 @@
 
 .item {
     display: inline-block;
-    width: 40%;
+    width: 20%;
     background: #D6CFC9;
     margin-bottom: 20px;
     padding-top: 20px;
@@ -20,7 +20,7 @@
 }
 
 .full-width-item {
-    width: 80%;
+    width: 40%;
     margin:0 auto 20px;
     cursor: pointer;
 
@@ -28,7 +28,7 @@
 
 
 .large-item {
-    width: 80%;
+    width: 40%;
     margin:0 auto 20px;
     cursor: pointer;
 
