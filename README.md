@@ -4,6 +4,8 @@
 
 In this project, you will be given three levels of practice using HTML and CSS. Each level will contain three steps. Each step will build on the last step and will contain an image file. You can use that image file as reference. The goal is to try to get as close as possible to the image's layout.
 
+If you get stuck on a level you can view the solution folder provided in each level. Try to only use this folder as a last resort.
+
 # Level 1
 
 ## Step 1
@@ -31,6 +33,20 @@ In this project, you will be given three levels of practice using HTML and CSS. 
   * Assign a width, height, and float.
 * Locate the element with the class of `menu-container`.
   * Assign a width, height, and float.
+
+## Step 3
+
+* Open `level-1/index.html` && `level-1/step-3.css` && `level-1/step-3.jpg`.
+* Locate the element with the class of `content-mid`.
+  * Add padding of 80 pixels on the top, left, right, and bottom.
+* Locate the element with the class of `content-mid-header`.
+  * Assign a width and height.
+* Locate the element with the class of `content-container`.
+  * Assign a width and height.
+* Locate the element with the class of `content`.
+  * Add padding of 20 pixels on the top, left, right, and bottom.
+  * Assign a width, height, and text-align.
+  * Add some random text inside the `div`.
 
 
 
