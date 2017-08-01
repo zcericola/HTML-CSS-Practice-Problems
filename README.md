@@ -2,7 +2,7 @@
 
 # Project Summary
 
-In this project, you will be given three levels of practice using HTML and CSS. Each level will contain three steps. Each step will build on the last step and will contain an image file. You can use that image file as reference. The goal is to try to get as close as possible to the image's layout.
+In this project, you will be given three levels of practice using HTML and CSS. Each level will contain three or less steps. Each step will build on the last step and will contain an image file. You can use that image file as reference. The goal is to try to get as close as possible to the image's layout.
 
 If you get stuck on a level you can view the solution folder provided in each level. Try to only use this folder as a last resort.
 
@@ -47,6 +47,31 @@ If you get stuck on a level you can view the solution folder provided in each le
   * Add padding of 20 pixels on the top, left, right, and bottom.
   * Assign a width, height, and text-align.
   * Add some random text inside the `div`.
+
+# Level 2
+
+## Step 1
+
+* Open `level-2/index.html` && `level-2/step-1.css` && `level-1/step-1.jpg`.
+* Locate the element with the class of `menu`, `logo` and `sign-in`.
+  * Assign a display that will allow these elements to appear on the same line.
+* Locate the element with the class of `menu`.
+  * Assign a position, left, and top.
+* Locate the element with the class of `sign-in`.
+  * Assign a position, right, and top.
+
+## Step 2
+
+* Open `level-2/index.html` && `level-2/step-2.css` && `level-2/step-2.jgp`.
+* Locate the element with the class of `main-bottom-section`.
+  * Add a text-align.
+* Locate the element with the class of `item`.
+  * Add a width, height, and display.
+* Locate the element with the class of `full-width-item`.
+  * Add a width, height, and margin.
+* Locate the element with the class of `large-item`.
+  * Add a width, height, and margin.
+
 
 
 
