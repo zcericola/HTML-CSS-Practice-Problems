@@ -1,6 +1,6 @@
-# HTML-CSS-Practice-Problems
-
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
+
+# Project Summary
 
 
 ##Objective
