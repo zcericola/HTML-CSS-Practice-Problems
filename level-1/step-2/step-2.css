@@ -30,7 +30,7 @@
 }
 
 
-/* Step-2 You can either use float left or position absolute to get this element to in the desired location. */
+/* Step-2 You can either use float right or position absolute to get this element to in the desired location. */
 
 .menu-container {
     background: #4F4949;
